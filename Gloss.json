@@ -1,0 +1,1227 @@
+{
+  "입국 신고서": {
+    "en": "arrival card",
+    "ja": "入国カード",
+    "zh": "入境卡",
+    "vi": "tờ khai nhập cảnh",
+    "disp": ""
+  },
+  "입국심사": {
+    "en": "immigration",
+    "ja": "入国審査",
+    "zh": "入境检查",
+    "vi": "kiểm tra nhập cảnh",
+    "disp": ""
+  },
+  "머물고": {
+    "en": "stay",
+    "ja": "滞在する",
+    "zh": "停留",
+    "vi": "ở lại",
+    "disp": "머물다"
+  },
+  "환승": {
+    "en": "transfer",
+    "ja": "乗り継ぎ",
+    "zh": "转机",
+    "vi": "nối chuyến",
+    "disp": ""
+  },
+  "좌석": {
+    "en": "seat",
+    "ja": "座席",
+    "zh": "座位",
+    "vi": "chỗ ngồi",
+    "disp": ""
+  },
+  "탑승권": {
+    "en": "boarding pass",
+    "ja": "搭乗券",
+    "zh": "登机牌",
+    "vi": "thẻ lên máy bay",
+    "disp": ""
+  },
+  "수하물": {
+    "en": "baggage",
+    "ja": "手荷物",
+    "zh": "行李",
+    "vi": "hành lý",
+    "disp": ""
+  },
+  "입국 목적": {
+    "en": "purpose of visit",
+    "ja": "入国の目的",
+    "zh": "入境目的",
+    "vi": "mục đích nhập cảnh",
+    "disp": ""
+  },
+  "체크인": {
+    "en": "check-in",
+    "ja": "チェックイン",
+    "zh": "办理入住",
+    "vi": "nhận phòng",
+    "disp": ""
+  },
+  "탑승 시간": {
+    "en": "boarding time",
+    "ja": "搭乗時間",
+    "zh": "登机时间",
+    "vi": "giờ lên máy bay",
+    "disp": ""
+  },
+  "친절": {
+    "en": "kindness",
+    "ja": "親切",
+    "zh": "亲切",
+    "vi": "sự tử tế",
+    "disp": ""
+  },
+  "번거롭게": {
+    "en": "troublesome",
+    "ja": "面倒",
+    "zh": "麻烦",
+    "vi": "phiền hà",
+    "disp": "번거롭다"
+  },
+  "덕분에": {
+    "en": "thanks to",
+    "ja": "おかげで",
+    "zh": "多亏",
+    "vi": "nhờ có",
+    "disp": ""
+  },
+  "조식": {
+    "en": "breakfast",
+    "ja": "朝食",
+    "zh": "早餐",
+    "vi": "bữa sáng",
+    "disp": ""
+  },
+  "빈 방": {
+    "en": "vacant room",
+    "ja": "空室",
+    "zh": "空房",
+    "vi": "phòng trống",
+    "disp": ""
+  },
+  "하룻밤": {
+    "en": "one night",
+    "ja": "一泊",
+    "zh": "一晚",
+    "vi": "một đêm",
+    "disp": ""
+  },
+  "체크아웃": {
+    "en": "check-out",
+    "ja": "チェックアウト",
+    "zh": "退房",
+    "vi": "trả phòng",
+    "disp": ""
+  },
+  "모닝콜": {
+    "en": "wake-up call",
+    "ja": "モーニングコール",
+    "zh": "叫醒服务",
+    "vi": "cuộc gọi báo thức",
+    "disp": ""
+  },
+  "뜨거운 물": {
+    "en": "hot water",
+    "ja": "お湯",
+    "zh": "热水",
+    "vi": "nước nóng",
+    "disp": ""
+  },
+  "방 열쇠": {
+    "en": "room key",
+    "ja": "部屋の鍵",
+    "zh": "房卡",
+    "vi": "chìa khóa phòng",
+    "disp": ""
+  },
+  "밤 늦게": {
+    "en": "late at night",
+    "ja": "夜遅く",
+    "zh": "深夜",
+    "vi": "khuya",
+    "disp": ""
+  },
+  "메뉴판": {
+    "en": "menu",
+    "ja": "メニュー",
+    "zh": "菜单",
+    "vi": "thực đơn",
+    "disp": ""
+  },
+  "자리": {
+    "en": "seat",
+    "ja": "席",
+    "zh": "座位",
+    "vi": "chỗ ngồi",
+    "disp": ""
+  },
+  "영어 메뉴": {
+    "en": "English menu",
+    "ja": "英語メニュー",
+    "zh": "英文菜单",
+    "vi": "thực đơn tiếng Anh",
+    "disp": ""
+  },
+  "추천 메뉴": {
+    "en": "recommended dish",
+    "ja": "おすすめメニュー",
+    "zh": "推荐菜",
+    "vi": "món gợi ý",
+    "disp": ""
+  },
+  "포장": {
+    "en": "takeout",
+    "ja": "持ち帰り",
+    "zh": "打包",
+    "vi": "gói mang về",
+    "disp": ""
+  },
+  "면": {
+    "en": "noodles",
+    "ja": "麺",
+    "zh": "面条",
+    "vi": "mì",
+    "disp": ""
+  },
+  "땅콩": {
+    "en": "peanut",
+    "ja": "ピーナッツ",
+    "zh": "花生",
+    "vi": "đậu phộng",
+    "disp": ""
+  },
+  "예약 시간": {
+    "en": "reservation time",
+    "ja": "予約時間",
+    "zh": "预约时间",
+    "vi": "giờ đặt chỗ",
+    "disp": ""
+  },
+  "맛있게": {
+    "en": "deliciously",
+    "ja": "おいしく",
+    "zh": "美味地",
+    "vi": "ngon",
+    "disp": "맛있다"
+  },
+  "지하철역": {
+    "en": "subway station",
+    "ja": "地下鉄の駅",
+    "zh": "地铁站",
+    "vi": "ga tàu điện ngầm",
+    "disp": ""
+  },
+  "버스 정류장": {
+    "en": "bus stop",
+    "ja": "バス停",
+    "zh": "公交车站",
+    "vi": "trạm xe buýt",
+    "disp": ""
+  },
+  "목적지": {
+    "en": "destination",
+    "ja": "目的地",
+    "zh": "目的地",
+    "vi": "điểm đến",
+    "disp": ""
+  },
+  "노선": {
+    "en": "route",
+    "ja": "路線",
+    "zh": "路线",
+    "vi": "tuyến đường",
+    "disp": ""
+  },
+  "막차": {
+    "en": "last train",
+    "ja": "終電",
+    "zh": "末班车",
+    "vi": "chuyến cuối",
+    "disp": ""
+  },
+  "교통카드": {
+    "en": "transit card",
+    "ja": "交通カード",
+    "zh": "交通卡",
+    "vi": "thẻ giao thông",
+    "disp": ""
+  },
+  "계산대": {
+    "en": "checkout counter",
+    "ja": "レジ",
+    "zh": "收银台",
+    "vi": "quầy thanh toán",
+    "disp": ""
+  },
+  "작은 사이즈": {
+    "en": "smaller size",
+    "ja": "小さいサイズ",
+    "zh": "小尺码",
+    "vi": "cỡ nhỏ",
+    "disp": ""
+  },
+  "탈의실": {
+    "en": "fitting room",
+    "ja": "試着室",
+    "zh": "试衣间",
+    "vi": "phòng thử đồ",
+    "disp": ""
+  },
+  "다른 색": {
+    "en": "another color",
+    "ja": "他の色",
+    "zh": "别的颜色",
+    "vi": "màu khác",
+    "disp": ""
+  },
+  "이 옷": {
+    "en": "this outfit",
+    "ja": "この服",
+    "zh": "这件衣服",
+    "vi": "bộ đồ này",
+    "disp": ""
+  },
+  "큰 사이즈": {
+    "en": "larger size",
+    "ja": "大きいサイズ",
+    "zh": "大尺码",
+    "vi": "cỡ lớn",
+    "disp": ""
+  },
+  "유통기한": {
+    "en": "expiration date",
+    "ja": "賞味期限",
+    "zh": "保质期",
+    "vi": "hạn sử dụng",
+    "disp": ""
+  },
+  "쇼핑백": {
+    "en": "shopping bag",
+    "ja": "買い物袋",
+    "zh": "购物袋",
+    "vi": "túi mua sắm",
+    "disp": ""
+  },
+  "마감 시간": {
+    "en": "closing time",
+    "ja": "閉店時間",
+    "zh": "关门时间",
+    "vi": "giờ đóng cửa",
+    "disp": ""
+  },
+  "깎아": {
+    "en": "discount",
+    "ja": "値引き",
+    "zh": "优惠",
+    "vi": "giảm giá",
+    "disp": "깎다"
+  },
+  "진통제": {
+    "en": "painkiller",
+    "ja": "鎮痛剤",
+    "zh": "止痛药",
+    "vi": "thuốc giảm đau",
+    "disp": ""
+  },
+  "소화제": {
+    "en": "digestive medicine",
+    "ja": "消化剤",
+    "zh": "消化药",
+    "vi": "thuốc tiêu hóa",
+    "disp": ""
+  },
+  "혈압": {
+    "en": "blood pressure",
+    "ja": "血圧",
+    "zh": "血压",
+    "vi": "huyết áp",
+    "disp": ""
+  },
+  "잠": {
+    "en": "sleep",
+    "ja": "睡眠",
+    "zh": "睡觉",
+    "vi": "giấc ngủ",
+    "disp": ""
+  },
+  "보험 카드": {
+    "en": "insurance card",
+    "ja": "保険証",
+    "zh": "保险卡",
+    "vi": "thẻ bảo hiểm",
+    "disp": ""
+  },
+  "치료": {
+    "en": "treatment",
+    "ja": "治療",
+    "zh": "治疗",
+    "vi": "điều trị",
+    "disp": ""
+  },
+  "기다리게": {
+    "en": "keep waiting",
+    "ja": "待たせる",
+    "zh": "让人等",
+    "vi": "để chờ",
+    "disp": "기다리다"
+  },
+  "담당자": {
+    "en": "person in charge",
+    "ja": "担当者",
+    "zh": "负责人",
+    "vi": "người phụ trách",
+    "disp": ""
+  },
+  "빈 자리": {
+    "en": "opening",
+    "ja": "空席",
+    "zh": "空位",
+    "vi": "chỗ trống",
+    "disp": ""
+  },
+  "예약 번호": {
+    "en": "reservation number",
+    "ja": "予約番号",
+    "zh": "预约号码",
+    "vi": "mã đặt chỗ",
+    "disp": ""
+  },
+  "취소": {
+    "en": "cancellation",
+    "ja": "キャンセル",
+    "zh": "取消",
+    "vi": "hủy",
+    "disp": ""
+  },
+  "인원": {
+    "en": "number of people",
+    "ja": "人数",
+    "zh": "人数",
+    "vi": "số người",
+    "disp": ""
+  },
+  "휴대폰": {
+    "en": "mobile phone",
+    "ja": "携帯電話",
+    "zh": "手机",
+    "vi": "điện thoại di động",
+    "disp": ""
+  },
+  "늦게": {
+    "en": "late",
+    "ja": "遅く",
+    "zh": "晚",
+    "vi": "muộn",
+    "disp": "늦다"
+  },
+  "환전소": {
+    "en": "currency exchange",
+    "ja": "両替所",
+    "zh": "兑换处",
+    "vi": "quầy đổi tiền",
+    "disp": ""
+  },
+  "잔돈": {
+    "en": "change",
+    "ja": "小銭",
+    "zh": "零钱",
+    "vi": "tiền lẻ",
+    "disp": ""
+  },
+  "현금인출기": {
+    "en": "ATM",
+    "ja": "ATM",
+    "zh": "自动取款机",
+    "vi": "máy ATM",
+    "disp": ""
+  },
+  "환전": {
+    "en": "currency exchange",
+    "ja": "両替",
+    "zh": "换钱",
+    "vi": "đổi tiền",
+    "disp": ""
+  },
+  "달러": {
+    "en": "dollar",
+    "ja": "ドル",
+    "zh": "美元",
+    "vi": "đô la",
+    "disp": ""
+  },
+  "원": {
+    "en": "won",
+    "ja": "ウォン",
+    "zh": "韩元",
+    "vi": "won",
+    "disp": ""
+  },
+  "금액": {
+    "en": "amount",
+    "ja": "金額",
+    "zh": "金额",
+    "vi": "số tiền",
+    "disp": ""
+  },
+  "잔액": {
+    "en": "balance",
+    "ja": "残高",
+    "zh": "余额",
+    "vi": "số dư",
+    "disp": ""
+  },
+  "수수료": {
+    "en": "fee",
+    "ja": "手数料",
+    "zh": "手续费",
+    "vi": "phí",
+    "disp": ""
+  },
+  "결제": {
+    "en": "payment",
+    "ja": "決済",
+    "zh": "付款",
+    "vi": "thanh toán",
+    "disp": ""
+  },
+  "입금": {
+    "en": "deposit",
+    "ja": "入金",
+    "zh": "入账",
+    "vi": "tiền vào tài khoản",
+    "disp": ""
+  },
+  "두 번": {
+    "en": "twice",
+    "ja": "二回",
+    "zh": "两次",
+    "vi": "hai lần",
+    "disp": ""
+  },
+  "도움": {
+    "en": "help",
+    "ja": "助け",
+    "zh": "帮助",
+    "vi": "sự giúp đỡ",
+    "disp": ""
+  },
+  "분실물 센터": {
+    "en": "lost and found",
+    "ja": "遺失物センター",
+    "zh": "失物招领处",
+    "vi": "quầy đồ thất lạc",
+    "disp": ""
+  },
+  "대사관": {
+    "en": "embassy",
+    "ja": "大使館",
+    "zh": "大使馆",
+    "vi": "đại sứ quán",
+    "disp": ""
+  },
+  "신고서": {
+    "en": "report form",
+    "ja": "届出書",
+    "zh": "报案表",
+    "vi": "đơn trình báo",
+    "disp": ""
+  },
+  "신고": {
+    "en": "report",
+    "ja": "届け出",
+    "zh": "报案",
+    "vi": "trình báo",
+    "disp": ""
+  },
+  "연락처": {
+    "en": "contact information",
+    "ja": "連絡先",
+    "zh": "联系方式",
+    "vi": "thông tin liên lạc",
+    "disp": ""
+  },
+  "분실물": {
+    "en": "lost item",
+    "ja": "遺失物",
+    "zh": "遗失物品",
+    "vi": "đồ thất lạc",
+    "disp": ""
+  },
+  "CCTV": {
+    "en": "CCTV",
+    "ja": "防犯カメラ",
+    "zh": "监控",
+    "vi": "camera an ninh",
+    "disp": ""
+  },
+  "대사관 업무 시간": {
+    "en": "embassy business hours",
+    "ja": "大使館の業務時間",
+    "zh": "大使馆办公时间",
+    "vi": "giờ làm việc của đại sứ quán",
+    "disp": ""
+  },
+  "도와": {
+    "en": "help",
+    "ja": "助ける",
+    "zh": "帮助",
+    "vi": "giúp đỡ",
+    "disp": "돕다"
+  },
+  "소란": {
+    "en": "commotion",
+    "ja": "騒ぎ",
+    "zh": "吵闹",
+    "vi": "sự ồn ào",
+    "disp": ""
+  },
+  "약속 장소": {
+    "en": "meeting place",
+    "ja": "約束の場所",
+    "zh": "见面地点",
+    "vi": "địa điểm hẹn",
+    "disp": ""
+  },
+  "일정표": {
+    "en": "schedule",
+    "ja": "日程表",
+    "zh": "日程表",
+    "vi": "lịch trình",
+    "disp": ""
+  },
+  "빈 시간": {
+    "en": "free time",
+    "ja": "空き時間",
+    "zh": "空闲时间",
+    "vi": "thời gian rảnh",
+    "disp": ""
+  },
+  "약속 시간": {
+    "en": "appointment time",
+    "ja": "約束の時間",
+    "zh": "约定时间",
+    "vi": "giờ hẹn",
+    "disp": ""
+  },
+  "고향": {
+    "en": "hometown",
+    "ja": "故郷",
+    "zh": "老家",
+    "vi": "quê hương",
+    "disp": ""
+  },
+  "모임 장소": {
+    "en": "gathering place",
+    "ja": "集まりの場所",
+    "zh": "聚会地点",
+    "vi": "địa điểm họp mặt",
+    "disp": ""
+  },
+  "한국어 책": {
+    "en": "Korean book",
+    "ja": "韓国語の本",
+    "zh": "韩语书",
+    "vi": "sách tiếng Hàn",
+    "disp": ""
+  },
+  "자기소개": {
+    "en": "self-introduction",
+    "ja": "自己紹介",
+    "zh": "自我介绍",
+    "vi": "giới thiệu bản thân",
+    "disp": ""
+  },
+  "별명": {
+    "en": "nickname",
+    "ja": "ニックネーム",
+    "zh": "昵称",
+    "vi": "biệt danh",
+    "disp": ""
+  },
+  "한 번 더": {
+    "en": "once more",
+    "ja": "もう一度",
+    "zh": "再一次",
+    "vi": "một lần nữa",
+    "disp": ""
+  },
+  "모임": {
+    "en": "gathering",
+    "ja": "集まり",
+    "zh": "聚会",
+    "vi": "buổi họp mặt",
+    "disp": ""
+  },
+  "초대": {
+    "en": "invitation",
+    "ja": "招待",
+    "zh": "邀请",
+    "vi": "lời mời",
+    "disp": ""
+  },
+  "가족 사진": {
+    "en": "family photo",
+    "ja": "家族写真",
+    "zh": "全家福",
+    "vi": "ảnh gia đình",
+    "disp": ""
+  },
+  "형제": {
+    "en": "siblings",
+    "ja": "兄弟",
+    "zh": "兄弟姐妹",
+    "vi": "anh chị em",
+    "disp": ""
+  },
+  "반려동물": {
+    "en": "pet",
+    "ja": "ペット",
+    "zh": "宠物",
+    "vi": "thú cưng",
+    "disp": ""
+  },
+  "직함": {
+    "en": "job title",
+    "ja": "肩書き",
+    "zh": "职位",
+    "vi": "chức danh",
+    "disp": ""
+  },
+  "친구 이름": {
+    "en": "friend's name",
+    "ja": "友達の名前",
+    "zh": "朋友的名字",
+    "vi": "tên bạn bè",
+    "disp": ""
+  },
+  "가족 관계": {
+    "en": "family relationship",
+    "ja": "家族関係",
+    "zh": "家庭关系",
+    "vi": "quan hệ gia đình",
+    "disp": ""
+  },
+  "친구 연락처": {
+    "en": "friend's contact",
+    "ja": "友達の連絡先",
+    "zh": "朋友的联系方式",
+    "vi": "liên lạc của bạn bè",
+    "disp": ""
+  },
+  "가족 모임": {
+    "en": "family gathering",
+    "ja": "家族の集まり",
+    "zh": "家庭聚会",
+    "vi": "họp mặt gia đình",
+    "disp": ""
+  },
+  "손님방": {
+    "en": "guest room",
+    "ja": "客室",
+    "zh": "客房",
+    "vi": "phòng khách",
+    "disp": ""
+  },
+  "수저": {
+    "en": "spoon and chopsticks",
+    "ja": "スプーンと箸",
+    "zh": "勺子和筷子",
+    "vi": "thìa và đũa",
+    "disp": ""
+  },
+  "집들이": {
+    "en": "housewarming",
+    "ja": "引っ越しパーティー",
+    "zh": "乔迁宴",
+    "vi": "tiệc tân gia",
+    "disp": ""
+  },
+  "초대 시간": {
+    "en": "invitation time",
+    "ja": "招待の時間",
+    "zh": "邀请时间",
+    "vi": "giờ mời",
+    "disp": ""
+  },
+  "현관문": {
+    "en": "front door",
+    "ja": "玄関のドア",
+    "zh": "大门",
+    "vi": "cửa chính",
+    "disp": ""
+  },
+  "현관 비밀번호": {
+    "en": "door code",
+    "ja": "玄関の暗証番号",
+    "zh": "门锁密码",
+    "vi": "mật khẩu cửa",
+    "disp": ""
+  },
+  "보일러": {
+    "en": "heater",
+    "ja": "ボイラー",
+    "zh": "暖气",
+    "vi": "lò sưởi",
+    "disp": ""
+  },
+  "리모컨": {
+    "en": "remote control",
+    "ja": "リモコン",
+    "zh": "遥控器",
+    "vi": "điều khiển",
+    "disp": ""
+  },
+  "맛있는 음식": {
+    "en": "delicious food",
+    "ja": "おいしい料理",
+    "zh": "好吃的菜",
+    "vi": "món ăn ngon",
+    "disp": ""
+  },
+  "면접 장소": {
+    "en": "interview room",
+    "ja": "面接会場",
+    "zh": "面试地点",
+    "vi": "địa điểm phỏng vấn",
+    "disp": ""
+  },
+  "근무 시간": {
+    "en": "work hours",
+    "ja": "勤務時間",
+    "zh": "工作时间",
+    "vi": "giờ làm việc",
+    "disp": ""
+  },
+  "근무 일정": {
+    "en": "work schedule",
+    "ja": "勤務スケジュール",
+    "zh": "工作安排",
+    "vi": "lịch làm việc",
+    "disp": ""
+  },
+  "출입증": {
+    "en": "access pass",
+    "ja": "入館証",
+    "zh": "出入证",
+    "vi": "thẻ ra vào",
+    "disp": ""
+  },
+  "출근 시간": {
+    "en": "work start time",
+    "ja": "出勤時間",
+    "zh": "上班时间",
+    "vi": "giờ đi làm",
+    "disp": ""
+  },
+  "기회": {
+    "en": "opportunity",
+    "ja": "機会",
+    "zh": "机会",
+    "vi": "cơ hội",
+    "disp": ""
+  },
+  "실수": {
+    "en": "mistake",
+    "ja": "ミス",
+    "zh": "失误",
+    "vi": "lỗi",
+    "disp": ""
+  },
+  "주말 일정": {
+    "en": "weekend schedule",
+    "ja": "週末の予定",
+    "zh": "周末安排",
+    "vi": "lịch cuối tuần",
+    "disp": ""
+  },
+  "영화 시간": {
+    "en": "movie time",
+    "ja": "映画の時間",
+    "zh": "电影时间",
+    "vi": "giờ chiếu phim",
+    "disp": ""
+  },
+  "티켓": {
+    "en": "ticket",
+    "ja": "チケット",
+    "zh": "票",
+    "vi": "vé",
+    "disp": ""
+  },
+  "모임 시간": {
+    "en": "gathering time",
+    "ja": "集まりの時間",
+    "zh": "聚会时间",
+    "vi": "giờ họp mặt",
+    "disp": ""
+  },
+  "힘": {
+    "en": "strength",
+    "ja": "力",
+    "zh": "力气",
+    "vi": "sức mạnh",
+    "disp": ""
+  },
+  "고민": {
+    "en": "worry",
+    "ja": "悩み",
+    "zh": "烦恼",
+    "vi": "nỗi băn khoăn",
+    "disp": ""
+  },
+  "무슨 일": {
+    "en": "what's wrong",
+    "ja": "何か",
+    "zh": "什么事",
+    "vi": "chuyện gì",
+    "disp": ""
+  },
+  "이야기할 시간": {
+    "en": "time to talk",
+    "ja": "話す時間",
+    "zh": "聊天的时间",
+    "vi": "thời gian nói chuyện",
+    "disp": ""
+  },
+  "좀 쉬고": {
+    "en": "rest a bit",
+    "ja": "少し休む",
+    "zh": "休息一会儿",
+    "vi": "nghỉ một chút",
+    "disp": "쉬다"
+  },
+  "말투": {
+    "en": "tone of speech",
+    "ja": "言い方",
+    "zh": "语气",
+    "vi": "cách nói chuyện",
+    "disp": ""
+  },
+  "부드럽게": {
+    "en": "gently",
+    "ja": "柔らかく",
+    "zh": "柔和地",
+    "vi": "nhẹ nhàng",
+    "disp": "부드럽다"
+  },
+  "제 말": {
+    "en": "what I said",
+    "ja": "私の言葉",
+    "zh": "我的话",
+    "vi": "lời tôi nói",
+    "disp": ""
+  },
+  "몸 상태": {
+    "en": "physical condition",
+    "ja": "体調",
+    "zh": "身体状况",
+    "vi": "tình trạng sức khỏe",
+    "disp": ""
+  },
+  "자신감": {
+    "en": "confidence",
+    "ja": "自信",
+    "zh": "自信",
+    "vi": "sự tự tin",
+    "disp": ""
+  },
+  "용기": {
+    "en": "courage",
+    "ja": "勇気",
+    "zh": "勇气",
+    "vi": "dũng khí",
+    "disp": ""
+  },
+  "답장": {
+    "en": "reply",
+    "ja": "返信",
+    "zh": "回复",
+    "vi": "tin nhắn trả lời",
+    "disp": ""
+  },
+  "칭찬": {
+    "en": "compliment",
+    "ja": "褒め言葉",
+    "zh": "夸奖",
+    "vi": "lời khen",
+    "disp": ""
+  },
+  "술집": {
+    "en": "bar",
+    "ja": "居酒屋",
+    "zh": "酒馆",
+    "vi": "quán nhậu",
+    "disp": ""
+  },
+  "술잔": {
+    "en": "glass",
+    "ja": "グラス",
+    "zh": "酒杯",
+    "vi": "ly rượu",
+    "disp": ""
+  },
+  "안주": {
+    "en": "snack for drinks",
+    "ja": "おつまみ",
+    "zh": "下酒菜",
+    "vi": "đồ nhắm",
+    "disp": ""
+  },
+  "회식 장소": {
+    "en": "company dinner place",
+    "ja": "会食の場所",
+    "zh": "聚餐地点",
+    "vi": "địa điểm liên hoan",
+    "disp": ""
+  },
+  "한잔": {
+    "en": "a drink",
+    "ja": "一杯",
+    "zh": "一杯",
+    "vi": "một ly",
+    "disp": ""
+  },
+  "식사": {
+    "en": "meal",
+    "ja": "食事",
+    "zh": "吃饭",
+    "vi": "bữa ăn",
+    "disp": ""
+  },
+  "회식 시간": {
+    "en": "company dinner time",
+    "ja": "会食の時間",
+    "zh": "聚餐时间",
+    "vi": "giờ liên hoan",
+    "disp": ""
+  },
+  "계산": {
+    "en": "bill",
+    "ja": "会計",
+    "zh": "结账",
+    "vi": "thanh toán",
+    "disp": ""
+  },
+  "대리운전": {
+    "en": "designated driver",
+    "ja": "運転代行",
+    "zh": "代驾",
+    "vi": "tài xế lái hộ",
+    "disp": ""
+  },
+  "외투": {
+    "en": "coat",
+    "ja": "コート",
+    "zh": "外套",
+    "vi": "áo khoác",
+    "disp": ""
+  },
+  "회식": {
+    "en": "company dinner",
+    "ja": "会食",
+    "zh": "聚餐",
+    "vi": "liên hoan",
+    "disp": ""
+  },
+  "맛있는 술": {
+    "en": "good drinks",
+    "ja": "おいしいお酒",
+    "zh": "好酒",
+    "vi": "rượu ngon",
+    "disp": ""
+  },
+  "데이트 장소": {
+    "en": "date spot",
+    "ja": "デートの場所",
+    "zh": "约会地点",
+    "vi": "địa điểm hẹn hò",
+    "disp": ""
+  },
+  "애인": {
+    "en": "partner",
+    "ja": "恋人",
+    "zh": "对象",
+    "vi": "người yêu",
+    "disp": ""
+  },
+  "이번 주말": {
+    "en": "this weekend",
+    "ja": "今週末",
+    "zh": "这个周末",
+    "vi": "cuối tuần này",
+    "disp": ""
+  },
+  "데이트": {
+    "en": "date",
+    "ja": "デート",
+    "zh": "约会",
+    "vi": "buổi hẹn hò",
+    "disp": ""
+  },
+  "사귀고": {
+    "en": "go out with",
+    "ja": "付き合う",
+    "zh": "交往",
+    "vi": "hẹn hò",
+    "disp": "사귀다"
+  },
+  "호칭": {
+    "en": "form of address",
+    "ja": "呼び方",
+    "zh": "称呼",
+    "vi": "cách gọi",
+    "disp": ""
+  },
+  "자기": {
+    "en": "darling",
+    "ja": "ダーリン",
+    "zh": "亲爱的",
+    "vi": "anh yêu/em yêu",
+    "disp": ""
+  },
+  "연락": {
+    "en": "contact",
+    "ja": "連絡",
+    "zh": "联系",
+    "vi": "liên lạc",
+    "disp": ""
+  },
+  "반지": {
+    "en": "ring",
+    "ja": "指輪",
+    "zh": "戒指",
+    "vi": "nhẫn",
+    "disp": ""
+  },
+  "사진 찍을 곳": {
+    "en": "photo spot",
+    "ja": "撮影スポット",
+    "zh": "拍照地点",
+    "vi": "chỗ chụp ảnh",
+    "disp": ""
+  },
+  "인스타": {
+    "en": "Instagram",
+    "ja": "インスタ",
+    "zh": "Instagram",
+    "vi": "Instagram",
+    "disp": ""
+  },
+  "카카오톡": {
+    "en": "KakaoTalk",
+    "ja": "カカオトーク",
+    "zh": "KakaoTalk",
+    "vi": "KakaoTalk",
+    "disp": ""
+  },
+  "계정": {
+    "en": "account",
+    "ja": "アカウント",
+    "zh": "账号",
+    "vi": "tài khoản",
+    "disp": ""
+  },
+  "메시지": {
+    "en": "message",
+    "ja": "メッセージ",
+    "zh": "消息",
+    "vi": "tin nhắn",
+    "disp": ""
+  },
+  "업로드": {
+    "en": "upload",
+    "ja": "アップロード",
+    "zh": "上传",
+    "vi": "đăng tải",
+    "disp": ""
+  },
+  "허락 없이": {
+    "en": "without permission",
+    "ja": "許可なく",
+    "zh": "未经许可",
+    "vi": "không xin phép",
+    "disp": ""
+  },
+  "공항 버스": {
+    "en": "airport bus",
+    "ja": "空港バス",
+    "zh": "机场大巴",
+    "vi": "xe buýt sân bay",
+    "disp": ""
+  },
+  "선물 상자": {
+    "en": "gift box",
+    "ja": "ギフトボックス",
+    "zh": "礼盒",
+    "vi": "hộp quà",
+    "disp": ""
+  },
+  "환불 창구": {
+    "en": "refund counter",
+    "ja": "払い戻しカウンター",
+    "zh": "退税柜台",
+    "vi": "quầy hoàn thuế",
+    "disp": ""
+  },
+  "출국장": {
+    "en": "departure hall",
+    "ja": "出国ゲート",
+    "zh": "出境大厅",
+    "vi": "sảnh xuất cảnh",
+    "disp": ""
+  },
+  "면세점": {
+    "en": "duty-free shop",
+    "ja": "免税店",
+    "zh": "免税店",
+    "vi": "cửa hàng miễn thuế",
+    "disp": ""
+  },
+  "다음 달": {
+    "en": "next month",
+    "ja": "来月",
+    "zh": "下个月",
+    "vi": "tháng sau",
+    "disp": ""
+  },
+  "출발 시간": {
+    "en": "departure time",
+    "ja": "出発時間",
+    "zh": "出发时间",
+    "vi": "giờ khởi hành",
+    "disp": ""
+  },
+  "짐 무게": {
+    "en": "luggage weight",
+    "ja": "荷物の重さ",
+    "zh": "行李重量",
+    "vi": "cân nặng hành lý",
+    "disp": ""
+  },
+  "다음 약속": {
+    "en": "next plan",
+    "ja": "次の約束",
+    "zh": "下次约定",
+    "vi": "cuộc hẹn tiếp theo",
+    "disp": ""
+  },
+  "온라인 체크인": {
+    "en": "online check-in",
+    "ja": "オンラインチェックイン",
+    "zh": "在线值机",
+    "vi": "làm thủ tục trực tuyến",
+    "disp": ""
+  },
+  "기념품": {
+    "en": "souvenir",
+    "ja": "お土産",
+    "zh": "纪念品",
+    "vi": "quà lưu niệm",
+    "disp": ""
+  }
+}

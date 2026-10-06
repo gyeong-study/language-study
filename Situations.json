@@ -1,0 +1,3762 @@
+{
+  "air": {
+    "id": "air",
+    "tier": 1,
+    "emoji": "✈️",
+    "name": "공항 / 입국심사",
+    "rows": [
+      {
+        "plain": "[화장실]이 어디예요?",
+        "en": "Where is the restroom?",
+        "ja": "トイレはどこですか？",
+        "zh": "洗手间在哪里？",
+        "vi": "Nhà vệ sinh ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "출구,탑승구,환전소"
+      },
+      {
+        "plain": "[입국 신고서] 한 장 주세요.",
+        "en": "Could I have an arrival card, please?",
+        "ja": "入国カードを1枚ください。",
+        "zh": "请给我一张入境卡。",
+        "vi": "Cho tôi một tờ khai nhập cảnh ạ.",
+        "pattern": "N 주세요",
+        "keys": "펜,지도,물"
+      },
+      {
+        "plain": "[통역] 있어요?",
+        "en": "Is there an interpreter?",
+        "ja": "通訳の方はいますか？",
+        "zh": "有翻译吗？",
+        "vi": "Có thông dịch viên không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "직원,안내원,의사"
+      },
+      {
+        "plain": "[입국심사]는 어디에서 받아요?",
+        "en": "Where do I go through immigration?",
+        "ja": "入国審査はどこで受けますか？",
+        "zh": "在哪里办理入境检查？",
+        "vi": "Tôi làm thủ tục nhập cảnh ở đâu ạ?",
+        "pattern": "N은/는 어디에서 받아요?",
+        "keys": "검역,보안검사,세관"
+      },
+      {
+        "plain": "[와이파이] 있어요?",
+        "en": "Is there Wi-Fi?",
+        "ja": "Wi-Fiはありますか？",
+        "zh": "有无线网络吗？",
+        "vi": "Có wifi không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "충전기,지도,의자"
+      },
+      {
+        "plain": "일주일 동안 [머물고] 싶어요.",
+        "en": "I want to stay for a week.",
+        "ja": "1週間滞在したいです。",
+        "zh": "我想待一个星期。",
+        "vi": "Tôi muốn ở lại một tuần ạ.",
+        "pattern": "V고 싶어요",
+        "keys": "묵고,쉬고,여행하고"
+      },
+      {
+        "plain": "[환승]하고 싶어요.",
+        "en": "I want to transfer.",
+        "ja": "乗り継ぎをしたいです。",
+        "zh": "我想转机。",
+        "vi": "Tôi muốn nối chuyến ạ.",
+        "pattern": "N하고 싶어요",
+        "keys": "체크인,예약,탑승"
+      },
+      {
+        "plain": "[좌석]을 창가로 바꿔 주세요.",
+        "en": "Please change my seat to a window seat.",
+        "ja": "座席を窓側に変えてください。",
+        "zh": "请把座位换成靠窗的。",
+        "vi": "Làm ơn đổi chỗ ngồi sang bên cửa sổ ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "비행기 표,예약,방"
+      },
+      {
+        "plain": "[탑승권]을 확인해 주세요.",
+        "en": "Please check my boarding pass.",
+        "ja": "搭乗券を確認してください。",
+        "zh": "请确认一下我的登机牌。",
+        "vi": "Làm ơn kiểm tra thẻ lên máy bay của tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "여권,예약,짐"
+      },
+      {
+        "plain": "[수하물] 무게를 확인해 주세요.",
+        "en": "Please check the weight of my baggage.",
+        "ja": "手荷物の重さを確認してください。",
+        "zh": "请确认一下行李的重量。",
+        "vi": "Làm ơn kiểm tra cân nặng hành lý ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "가방,짐,요금"
+      },
+      {
+        "plain": "[여권]을 보여 드릴게요.",
+        "en": "I'll show you my passport.",
+        "ja": "パスポートをお見せします。",
+        "zh": "我给您看护照。",
+        "vi": "Tôi xin trình hộ chiếu ạ.",
+        "pattern": "N을/를 V(으)ㄹ게요",
+        "keys": "탑승권,비자,예약 확인서"
+      },
+      {
+        "plain": "[입국 목적]은 관광이에요.",
+        "en": "The purpose of my visit is sightseeing.",
+        "ja": "入国の目的は観光です。",
+        "zh": "入境目的是观光。",
+        "vi": "Mục đích nhập cảnh của tôi là du lịch ạ.",
+        "pattern": "N은/는 N이에요",
+        "keys": "방문 목적,직업,체류 기간"
+      },
+      {
+        "plain": "[수하물]이 안 나와요.",
+        "en": "My baggage isn't coming out.",
+        "ja": "荷物が出てきません。",
+        "zh": "行李出不来。",
+        "vi": "Hành lý của tôi chưa ra ạ.",
+        "pattern": "N이/가 안 V",
+        "keys": "가방,짐,표"
+      },
+      {
+        "plain": "[체크인]이 안 돼요.",
+        "en": "I can't check in.",
+        "ja": "チェックインできません。",
+        "zh": "无法办理登机手续。",
+        "vi": "Tôi không làm thủ tục được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "예약,결제,탑승"
+      },
+      {
+        "plain": "[가방]을 잃어버렸어요.",
+        "en": "I lost my bag.",
+        "ja": "かばんをなくしました。",
+        "zh": "我把包弄丢了。",
+        "vi": "Tôi bị mất túi xách ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "여권,지갑,휴대폰"
+      },
+      {
+        "plain": "[충전기]를 잃어버렸어요.",
+        "en": "I lost my charger.",
+        "ja": "充電器をなくしました。",
+        "zh": "我把充电器弄丢了。",
+        "vi": "Tôi bị mất cục sạc ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "우산,안경,열쇠"
+      },
+      {
+        "plain": "[탑승 시간]에 늦었어요.",
+        "en": "I'm late for boarding.",
+        "ja": "搭乗時間に遅れました。",
+        "zh": "我登机时间迟到了。",
+        "vi": "Tôi đã trễ giờ lên máy bay ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "비행기,체크인,약속"
+      },
+      {
+        "plain": "[친절]하게 안내해 주셔서 감사합니다.",
+        "en": "Thank you for guiding me so kindly.",
+        "ja": "親切に案内してくださってありがとうございます。",
+        "zh": "谢谢您亲切地为我指路。",
+        "vi": "Cảm ơn bạn đã hướng dẫn tận tình ạ.",
+        "pattern": "V아/어 주셔서 감사합니다",
+        "keys": "도와,알려,설명해"
+      },
+      {
+        "plain": "[번거롭게] 해서 죄송합니다.",
+        "en": "I'm sorry to trouble you.",
+        "ja": "お手数をおかけしてすみません。",
+        "zh": "不好意思给您添麻烦了。",
+        "vi": "Xin lỗi vì đã làm phiền bạn ạ.",
+        "pattern": "V아/어서 죄송합니다",
+        "keys": "기다리게,늦게,불편하게"
+      },
+      {
+        "plain": "[덕분에] 무사히 도착했어요.",
+        "en": "Thanks to you, I arrived safely.",
+        "ja": "おかげさまで無事に到着しました。",
+        "zh": "多亏您，我平安到达了。",
+        "vi": "Nhờ bạn mà tôi đã đến nơi an toàn ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "hotel": {
+    "id": "hotel",
+    "tier": 1,
+    "emoji": "🏨",
+    "name": "호텔 체크인 / 체크아웃",
+    "rows": [
+      {
+        "plain": "[체크인]은 어디에서 해요?",
+        "en": "Where do I check in?",
+        "ja": "チェックインはどこでしますか？",
+        "zh": "在哪里办理入住？",
+        "vi": "Tôi làm thủ tục nhận phòng ở đâu ạ?",
+        "pattern": "N은/는 어디에서 해요?",
+        "keys": "체크아웃,조식,환전"
+      },
+      {
+        "plain": "[수건] 좀 더 주세요.",
+        "en": "Could I have some more towels, please?",
+        "ja": "タオルをもう少しください。",
+        "zh": "请再给我一些毛巾。",
+        "vi": "Cho tôi thêm khăn tắm ạ.",
+        "pattern": "N 주세요",
+        "keys": "베개,담요,물"
+      },
+      {
+        "plain": "[엘리베이터]가 어디예요?",
+        "en": "Where is the elevator?",
+        "ja": "エレベーターはどこですか？",
+        "zh": "电梯在哪里？",
+        "vi": "Thang máy ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "계단,식당,주차장"
+      },
+      {
+        "plain": "[조식] 있어요?",
+        "en": "Is breakfast available?",
+        "ja": "朝食はありますか？",
+        "zh": "有早餐吗？",
+        "vi": "Có bữa sáng không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "수영장,헬스장,세탁실"
+      },
+      {
+        "plain": "[빈 방] 있어요?",
+        "en": "Do you have any vacant rooms?",
+        "ja": "空いている部屋はありますか？",
+        "zh": "有空房吗？",
+        "vi": "Còn phòng trống không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "싱글룸,더블룸,금연실"
+      },
+      {
+        "plain": "[예약]을 확인하고 싶어요.",
+        "en": "I'd like to confirm my reservation.",
+        "ja": "予約を確認したいです。",
+        "zh": "我想确认一下预订。",
+        "vi": "Tôi muốn xác nhận đặt phòng ạ.",
+        "pattern": "N을/를 V고 싶어요",
+        "keys": "취소,변경,연장"
+      },
+      {
+        "plain": "[하룻밤] 더 묵고 싶어요.",
+        "en": "I'd like to stay one more night.",
+        "ja": "もう一泊したいです。",
+        "zh": "我想再住一晚。",
+        "vi": "Tôi muốn ở thêm một đêm ạ.",
+        "pattern": "N 더 V고 싶어요",
+        "keys": "이틀,사흘,일주일"
+      },
+      {
+        "plain": "[방]을 바꿔 주세요.",
+        "en": "Could you change my room, please?",
+        "ja": "部屋を変えてください。",
+        "zh": "请给我换个房间。",
+        "vi": "Làm ơn đổi phòng cho tôi ạ.",
+        "pattern": "N을/를 바꿔 주세요",
+        "keys": "자리,좌석,예약"
+      },
+      {
+        "plain": "[체크아웃] 시간을 확인해 주세요.",
+        "en": "Please confirm the check-out time.",
+        "ja": "チェックアウトの時間を確認してください。",
+        "zh": "请确认退房时间。",
+        "vi": "Làm ơn xác nhận giờ trả phòng ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "조식 시간,예약,요금"
+      },
+      {
+        "plain": "[짐]을 맡기고 싶어요.",
+        "en": "I'd like to leave my luggage with you.",
+        "ja": "荷物を預けたいです。",
+        "zh": "我想寄存行李。",
+        "vi": "Tôi muốn gửi hành lý ạ.",
+        "pattern": "N을/를 V고 싶어요",
+        "keys": "가방,귀중품,열쇠"
+      },
+      {
+        "plain": "[모닝콜]을 7시로 바꿔 주세요.",
+        "en": "Please change my wake-up call to 7 o'clock.",
+        "ja": "モーニングコールを7時に変えてください。",
+        "zh": "请把叫醒服务改成7点。",
+        "vi": "Làm ơn đổi cuộc gọi báo thức sang 7 giờ ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "체크아웃,조식,예약"
+      },
+      {
+        "plain": "[택시]를 불러 주세요.",
+        "en": "Please call a taxi for me.",
+        "ja": "タクシーを呼んでください。",
+        "zh": "请帮我叫一辆出租车。",
+        "vi": "Làm ơn gọi giúp tôi một chiếc taxi ạ.",
+        "pattern": "N을/를 불러 주세요",
+        "keys": "버스,직원,의사"
+      },
+      {
+        "plain": "[에어컨]이 안 돼요.",
+        "en": "The air conditioner doesn't work.",
+        "ja": "エアコンがつきません。",
+        "zh": "空调不能用。",
+        "vi": "Máy lạnh không hoạt động ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "텔레비전,샤워기,드라이어"
+      },
+      {
+        "plain": "[뜨거운 물]이 안 나와요.",
+        "en": "There's no hot water.",
+        "ja": "お湯が出ません。",
+        "zh": "没有热水。",
+        "vi": "Không có nước nóng ạ.",
+        "pattern": "N이/가 안 나와요",
+        "keys": "물,수건,전기"
+      },
+      {
+        "plain": "[방 열쇠]를 잃어버렸어요.",
+        "en": "I lost my room key.",
+        "ja": "部屋の鍵をなくしました。",
+        "zh": "我把房卡弄丢了。",
+        "vi": "Tôi làm mất chìa khóa phòng ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "카드키,짐,여권"
+      },
+      {
+        "plain": "[와이파이]가 안 돼요.",
+        "en": "The Wi-Fi isn't working.",
+        "ja": "Wi-Fiがつながりません。",
+        "zh": "无线网络连不上。",
+        "vi": "Wifi không kết nối được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "인터넷,전화,텔레비전"
+      },
+      {
+        "plain": "[체크아웃]에 늦었어요.",
+        "en": "I'm late for check-out.",
+        "ja": "チェックアウトに遅れました。",
+        "zh": "我退房迟到了。",
+        "vi": "Tôi đã trễ giờ trả phòng ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "조식,예약,공항 버스"
+      },
+      {
+        "plain": "[청소]해 주셔서 감사합니다.",
+        "en": "Thank you for cleaning the room.",
+        "ja": "掃除してくださってありがとうございます。",
+        "zh": "谢谢您打扫房间。",
+        "vi": "Cảm ơn bạn đã dọn phòng ạ.",
+        "pattern": "N해 주셔서 감사합니다",
+        "keys": "안내,예약,준비"
+      },
+      {
+        "plain": "[밤 늦게] 전화해서 죄송합니다.",
+        "en": "I'm sorry for calling so late at night.",
+        "ja": "夜遅くに電話してすみません。",
+        "zh": "不好意思这么晚打电话。",
+        "vi": "Xin lỗi vì đã gọi điện muộn ạ.",
+        "pattern": "V아/어서 죄송합니다",
+        "keys": "아침 일찍,갑자기,여러 번"
+      },
+      {
+        "plain": "[덕분에] 편하게 쉬었어요.",
+        "en": "Thanks to you, I rested comfortably.",
+        "ja": "おかげさまで楽に休めました。",
+        "zh": "多亏您，我休息得很舒服。",
+        "vi": "Nhờ bạn mà tôi đã nghỉ ngơi thoải mái ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "food": {
+    "id": "food",
+    "tier": 1,
+    "emoji": "🍜",
+    "name": "식당 주문 / 카페",
+    "rows": [
+      {
+        "plain": "[메뉴판] 주세요.",
+        "en": "Menu, please.",
+        "ja": "メニューをください。",
+        "zh": "请给我菜单。",
+        "vi": "Cho tôi xem thực đơn ạ.",
+        "pattern": "N 주세요",
+        "keys": "물,휴지,숟가락"
+      },
+      {
+        "plain": "[물] 좀 주세요.",
+        "en": "Could I have some water, please?",
+        "ja": "お水をください。",
+        "zh": "请给我一点水。",
+        "vi": "Cho tôi xin ít nước ạ.",
+        "pattern": "N 주세요",
+        "keys": "휴지,젓가락,접시"
+      },
+      {
+        "plain": "[자리] 있어요?",
+        "en": "Do you have a table?",
+        "ja": "席はありますか？",
+        "zh": "有座位吗？",
+        "vi": "Còn bàn trống không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "창가 자리,빈 방,예약석"
+      },
+      {
+        "plain": "[주문]은 어디에서 해요?",
+        "en": "Where do I order?",
+        "ja": "注文はどこでしますか？",
+        "zh": "在哪里点餐？",
+        "vi": "Tôi gọi món ở đâu ạ?",
+        "pattern": "N은/는 어디에서 해요?",
+        "keys": "계산,포장,결제"
+      },
+      {
+        "plain": "[영어 메뉴] 있어요?",
+        "en": "Do you have an English menu?",
+        "ja": "英語のメニューはありますか？",
+        "zh": "有英文菜单吗？",
+        "vi": "Có thực đơn tiếng Anh không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "사진 메뉴,아이 의자,휴지"
+      },
+      {
+        "plain": "[추천 메뉴]를 먹고 싶어요.",
+        "en": "I'd like to try your recommended dish.",
+        "ja": "おすすめメニューを食べたいです。",
+        "zh": "我想吃推荐的菜。",
+        "vi": "Tôi muốn ăn món được gợi ý ạ.",
+        "pattern": "N을/를 V고 싶어요",
+        "keys": "국수,밥,커피"
+      },
+      {
+        "plain": "[포장]해 주세요.",
+        "en": "Please pack it to go.",
+        "ja": "持ち帰りでお願いします。",
+        "zh": "请帮我打包。",
+        "vi": "Làm ơn gói mang về giúp tôi ạ.",
+        "pattern": "N해 주세요",
+        "keys": "계산,주문,예약"
+      },
+      {
+        "plain": "[밥]을 [면]으로 바꿔 주세요.",
+        "en": "Please change the rice to noodles.",
+        "ja": "ご飯を麺に変えてください。",
+        "zh": "请把米饭换成面条。",
+        "vi": "Làm ơn đổi cơm sang mì ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "2:국수,빵,샐러드"
+      },
+      {
+        "plain": "[계산서]를 확인해 주세요.",
+        "en": "Please check the bill.",
+        "ja": "お会計を確認してください。",
+        "zh": "请确认一下账单。",
+        "vi": "Làm ơn kiểm tra hóa đơn giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "주문,금액,영수증"
+      },
+      {
+        "plain": "[주문]을 확인해 주세요.",
+        "en": "Please check my order.",
+        "ja": "注文を確認してください。",
+        "zh": "请确认一下我的点单。",
+        "vi": "Làm ơn kiểm tra lại món tôi gọi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "계산서,메뉴,예약"
+      },
+      {
+        "plain": "[땅콩]이 들어갔는지 확인해 주세요.",
+        "en": "Please check whether it contains peanuts.",
+        "ja": "ピーナッツが入っているか確認してください。",
+        "zh": "请确认里面有没有花生。",
+        "vi": "Làm ơn kiểm tra xem có đậu phộng không ạ.",
+        "pattern": "N이/가 V았/었는지 확인해 주세요",
+        "keys": "우유,계란,새우"
+      },
+      {
+        "plain": "[카드]로 계산하고 싶어요.",
+        "en": "I'd like to pay by card.",
+        "ja": "カードで支払いたいです。",
+        "zh": "我想用卡付款。",
+        "vi": "Tôi muốn thanh toán bằng thẻ ạ.",
+        "pattern": "N(으)로 V고 싶어요",
+        "keys": "현금,휴대폰,쿠폰"
+      },
+      {
+        "plain": "[주문]이 안 나왔어요.",
+        "en": "My order hasn't come out yet.",
+        "ja": "注文したものがまだ来ていません。",
+        "zh": "我点的菜还没上。",
+        "vi": "Món tôi gọi vẫn chưa ra ạ.",
+        "pattern": "N이/가 안 V았/었어요",
+        "keys": "음식,커피,물"
+      },
+      {
+        "plain": "[카드]가 안 돼요.",
+        "en": "The card doesn't work.",
+        "ja": "カードが使えません。",
+        "zh": "卡不能用。",
+        "vi": "Thẻ không dùng được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "쿠폰,휴대폰 결제,할인"
+      },
+      {
+        "plain": "[지갑]을 잃어버렸어요.",
+        "en": "I lost my wallet.",
+        "ja": "財布をなくしました。",
+        "zh": "我把钱包弄丢了。",
+        "vi": "Tôi bị mất ví ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "휴대폰,가방,카드"
+      },
+      {
+        "plain": "[우산]을 잃어버렸어요.",
+        "en": "I lost my umbrella.",
+        "ja": "傘をなくしました。",
+        "zh": "我把雨伞弄丢了。",
+        "vi": "Tôi làm mất cây dù ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "장갑,모자,휴대폰"
+      },
+      {
+        "plain": "[예약 시간]에 늦었어요.",
+        "en": "I'm late for my reservation.",
+        "ja": "予約の時間に遅れました。",
+        "zh": "我预约的时间迟到了。",
+        "vi": "Tôi đã trễ giờ đặt bàn ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "식사 시간,약속,주문"
+      },
+      {
+        "plain": "[맛있게] 먹었어요, 감사합니다.",
+        "en": "It was delicious, thank you.",
+        "ja": "おいしくいただきました、ありがとうございます。",
+        "zh": "吃得很好，谢谢。",
+        "vi": "Tôi đã ăn rất ngon, cảm ơn ạ.",
+        "pattern": "V았/었어요, 감사합니다",
+        "keys": "잘,많이,배부르게"
+      },
+      {
+        "plain": "[물]을 쏟아서 죄송합니다.",
+        "en": "I'm sorry I spilled the water.",
+        "ja": "水をこぼしてすみません。",
+        "zh": "不好意思，我把水洒了。",
+        "vi": "Xin lỗi vì tôi làm đổ nước ạ.",
+        "pattern": "N을/를 V아/어서 죄송합니다",
+        "keys": "커피,국,음료수"
+      },
+      {
+        "plain": "[덕분에] 맛있게 먹었어요.",
+        "en": "Thanks to you, I enjoyed the meal.",
+        "ja": "おかげさまでおいしく食べました。",
+        "zh": "多亏您，我吃得很开心。",
+        "vi": "Nhờ bạn mà tôi đã ăn rất ngon ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "move": {
+    "id": "move",
+    "tier": 1,
+    "emoji": "🚕",
+    "name": "길 찾기 / 대중교통 / 택시",
+    "rows": [
+      {
+        "plain": "[지하철역]이 어디예요?",
+        "en": "Where is the subway station?",
+        "ja": "地下鉄の駅はどこですか？",
+        "zh": "地铁站在哪里？",
+        "vi": "Ga tàu điện ngầm ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "버스 정류장,택시 승강장,기차역"
+      },
+      {
+        "plain": "[지도] 좀 보여 주세요.",
+        "en": "Could you show me the map?",
+        "ja": "地図を見せてください。",
+        "zh": "请给我看一下地图。",
+        "vi": "Cho tôi xem bản đồ với ạ.",
+        "pattern": "N 좀 보여 주세요",
+        "keys": "표,주소,노선도"
+      },
+      {
+        "plain": "[버스] 있어요?",
+        "en": "Is there a bus?",
+        "ja": "バスはありますか？",
+        "zh": "有公交车吗？",
+        "vi": "Có xe buýt không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "택시,지하철,기차"
+      },
+      {
+        "plain": "[버스 정류장]이 어디예요?",
+        "en": "Where is the bus stop?",
+        "ja": "バス停はどこですか？",
+        "zh": "公交车站在哪里？",
+        "vi": "Trạm xe buýt ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "지하철역,택시 승강장,공항"
+      },
+      {
+        "plain": "[표] 한 장 주세요.",
+        "en": "One ticket, please.",
+        "ja": "切符を1枚ください。",
+        "zh": "请给我一张票。",
+        "vi": "Cho tôi một vé ạ.",
+        "pattern": "N 주세요",
+        "keys": "교통카드,영수증,지도"
+      },
+      {
+        "plain": "[공항]에 가고 싶어요.",
+        "en": "I want to go to the airport.",
+        "ja": "空港に行きたいです。",
+        "zh": "我想去机场。",
+        "vi": "Tôi muốn đi sân bay ạ.",
+        "pattern": "N에 가고 싶어요",
+        "keys": "병원,호텔,시청"
+      },
+      {
+        "plain": "[여기]에서 내리고 싶어요.",
+        "en": "I'd like to get off here.",
+        "ja": "ここで降りたいです。",
+        "zh": "我想在这里下车。",
+        "vi": "Tôi muốn xuống ở đây ạ.",
+        "pattern": "N에서 V고 싶어요",
+        "keys": "다음 정류장,역 앞,호텔 앞"
+      },
+      {
+        "plain": "[목적지]를 이 주소로 바꿔 주세요.",
+        "en": "Please change the destination to this address.",
+        "ja": "目的地をこの住所に変えてください。",
+        "zh": "请把目的地改成这个地址。",
+        "vi": "Làm ơn đổi điểm đến sang địa chỉ này ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "길,노선,출구"
+      },
+      {
+        "plain": "[노선]을 확인해 주세요.",
+        "en": "Please check the route.",
+        "ja": "路線を確認してください。",
+        "zh": "请确认一下路线。",
+        "vi": "Làm ơn kiểm tra tuyến đường giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "주소,요금,시간표"
+      },
+      {
+        "plain": "[주소]를 확인해 주세요.",
+        "en": "Please check the address.",
+        "ja": "住所を確認してください。",
+        "zh": "请确认一下地址。",
+        "vi": "Làm ơn kiểm tra địa chỉ giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "노선,출구,요금"
+      },
+      {
+        "plain": "[요금]을 확인해 주세요.",
+        "en": "Please check the fare.",
+        "ja": "料金を確認してください。",
+        "zh": "请确认一下车费。",
+        "vi": "Làm ơn kiểm tra giá cước giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "주소,시간표,거스름돈"
+      },
+      {
+        "plain": "[막차] 시간을 확인해 주세요.",
+        "en": "Please check the last train time.",
+        "ja": "終電の時間を確認してください。",
+        "zh": "请确认一下末班车的时间。",
+        "vi": "Làm ơn kiểm tra giờ chuyến cuối ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "첫차,시간표,환승"
+      },
+      {
+        "plain": "[길]을 잃어버렸어요.",
+        "en": "I'm lost.",
+        "ja": "道に迷いました。",
+        "zh": "我迷路了。",
+        "vi": "Tôi bị lạc đường ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "방향,출구,일행"
+      },
+      {
+        "plain": "[교통카드]가 안 돼요.",
+        "en": "My transit card doesn't work.",
+        "ja": "交通カードが使えません。",
+        "zh": "交通卡刷不了。",
+        "vi": "Thẻ giao thông không dùng được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "앱,표,카드"
+      },
+      {
+        "plain": "[앱]이 안 돼요.",
+        "en": "The app isn't working.",
+        "ja": "アプリが動きません。",
+        "zh": "应用程序打不开。",
+        "vi": "Ứng dụng không chạy được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "지도,인터넷,와이파이"
+      },
+      {
+        "plain": "[교통카드]를 잃어버렸어요.",
+        "en": "I lost my transit card.",
+        "ja": "交通カードをなくしました。",
+        "zh": "我把交通卡弄丢了。",
+        "vi": "Tôi bị mất thẻ giao thông ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "표,지갑,우산"
+      },
+      {
+        "plain": "[막차]에 늦었어요.",
+        "en": "I missed the last train.",
+        "ja": "終電に遅れました。",
+        "zh": "我没赶上末班车。",
+        "vi": "Tôi đã trễ chuyến cuối ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "버스,기차,약속"
+      },
+      {
+        "plain": "[길]을 알려 주셔서 감사합니다.",
+        "en": "Thank you for showing me the way.",
+        "ja": "道を教えてくださってありがとうございます。",
+        "zh": "谢谢您给我指路。",
+        "vi": "Cảm ơn bạn đã chỉ đường cho tôi ạ.",
+        "pattern": "N을/를 V아/어 주셔서 감사합니다",
+        "keys": "방향,출구,노선"
+      },
+      {
+        "plain": "[길]을 잘못 말해서 죄송합니다.",
+        "en": "I'm sorry I gave you the wrong directions.",
+        "ja": "道を間違えて伝えてすみません。",
+        "zh": "不好意思，我把路说错了。",
+        "vi": "Xin lỗi vì tôi đã chỉ sai đường ạ.",
+        "pattern": "N을/를 잘못 V아/어서 죄송합니다",
+        "keys": "주소,방향,시간"
+      },
+      {
+        "plain": "[덕분에] 제시간에 도착했어요.",
+        "en": "Thanks to you, I arrived on time.",
+        "ja": "おかげさまで時間通りに着きました。",
+        "zh": "多亏您，我准时到了。",
+        "vi": "Nhờ bạn mà tôi đã đến đúng giờ ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "shop": {
+    "id": "shop",
+    "tier": 1,
+    "emoji": "🛍️",
+    "name": "쇼핑 / 마트 / 편의점",
+    "rows": [
+      {
+        "plain": "[계산대]가 어디예요?",
+        "en": "Where is the checkout counter?",
+        "ja": "レジはどこですか？",
+        "zh": "收银台在哪里？",
+        "vi": "Quầy thanh toán ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "탈의실,화장실,출구"
+      },
+      {
+        "plain": "[봉투] 하나 주세요.",
+        "en": "One bag, please.",
+        "ja": "袋を1つください。",
+        "zh": "请给我一个袋子。",
+        "vi": "Cho tôi một cái túi ạ.",
+        "pattern": "N 주세요",
+        "keys": "영수증,젓가락,쇼핑백"
+      },
+      {
+        "plain": "[작은 사이즈] 있어요?",
+        "en": "Do you have a smaller size?",
+        "ja": "小さいサイズはありますか？",
+        "zh": "有小一点的尺码吗？",
+        "vi": "Có cỡ nhỏ hơn không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "큰 사이즈,다른 색,새 제품"
+      },
+      {
+        "plain": "[탈의실]이 어디예요?",
+        "en": "Where is the fitting room?",
+        "ja": "試着室はどこですか？",
+        "zh": "试衣间在哪里？",
+        "vi": "Phòng thử đồ ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "계산대,화장실,입구"
+      },
+      {
+        "plain": "[다른 색] 있어요?",
+        "en": "Do you have another color?",
+        "ja": "他の色はありますか？",
+        "zh": "有别的颜色吗？",
+        "vi": "Có màu khác không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "작은 사이즈,새 제품,할인 상품"
+      },
+      {
+        "plain": "[선물]을 사고 싶어요.",
+        "en": "I want to buy a gift.",
+        "ja": "プレゼントを買いたいです。",
+        "zh": "我想买礼物。",
+        "vi": "Tôi muốn mua quà ạ.",
+        "pattern": "N을/를 사고 싶어요",
+        "keys": "옷,신발,화장품"
+      },
+      {
+        "plain": "[이 옷]을 입어 보고 싶어요.",
+        "en": "I'd like to try on this outfit.",
+        "ja": "この服を試着したいです。",
+        "zh": "我想试穿这件衣服。",
+        "vi": "Tôi muốn thử bộ đồ này ạ.",
+        "pattern": "N을/를 V아/어 보고 싶어요",
+        "keys": "신발,모자,외투"
+      },
+      {
+        "plain": "[큰 사이즈]로 바꿔 주세요.",
+        "en": "Please change it to a larger size.",
+        "ja": "大きいサイズに変えてください。",
+        "zh": "请给我换大一点的尺码。",
+        "vi": "Làm ơn đổi sang cỡ lớn hơn ạ.",
+        "pattern": "N(으)로 바꿔 주세요",
+        "keys": "작은 사이즈,다른 색,새 제품"
+      },
+      {
+        "plain": "[가격]을 확인해 주세요.",
+        "en": "Please check the price.",
+        "ja": "値段を確認してください。",
+        "zh": "请确认一下价格。",
+        "vi": "Làm ơn kiểm tra giá giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "재고,할인,영수증"
+      },
+      {
+        "plain": "[유통기한]을 확인해 주세요.",
+        "en": "Please check the expiration date.",
+        "ja": "賞味期限を確認してください。",
+        "zh": "请确认一下保质期。",
+        "vi": "Làm ơn kiểm tra hạn sử dụng giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "가격,재고,성분"
+      },
+      {
+        "plain": "[환불]하고 싶어요.",
+        "en": "I'd like a refund.",
+        "ja": "返金してほしいです。",
+        "zh": "我想退款。",
+        "vi": "Tôi muốn được hoàn tiền ạ.",
+        "pattern": "N하고 싶어요",
+        "keys": "교환,포장,할인"
+      },
+      {
+        "plain": "[영수증]을 확인해 주세요.",
+        "en": "Please check the receipt.",
+        "ja": "レシートを確認してください。",
+        "zh": "请确认一下收据。",
+        "vi": "Làm ơn kiểm tra hóa đơn giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "가격,재고,카드"
+      },
+      {
+        "plain": "[카드]가 안 돼요.",
+        "en": "The card doesn't work.",
+        "ja": "カードが使えません。",
+        "zh": "卡不能用。",
+        "vi": "Thẻ không dùng được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "쿠폰,할인,휴대폰 결제"
+      },
+      {
+        "plain": "[할인]이 안 돼요.",
+        "en": "The discount doesn't apply.",
+        "ja": "割引が適用されません。",
+        "zh": "折扣用不了。",
+        "vi": "Giảm giá không áp dụng được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "쿠폰,카드,포인트"
+      },
+      {
+        "plain": "[영수증]을 잃어버렸어요.",
+        "en": "I lost my receipt.",
+        "ja": "レシートをなくしました。",
+        "zh": "我把收据弄丢了。",
+        "vi": "Tôi làm mất hóa đơn ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "쇼핑백,카드,쿠폰"
+      },
+      {
+        "plain": "[쇼핑백]을 잃어버렸어요.",
+        "en": "I lost my shopping bag.",
+        "ja": "買い物袋をなくしました。",
+        "zh": "我把购物袋弄丢了。",
+        "vi": "Tôi làm mất túi mua sắm ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "영수증,우산,장갑"
+      },
+      {
+        "plain": "[마감 시간]에 늦었어요.",
+        "en": "I'm late for closing time.",
+        "ja": "閉店時間に遅れました。",
+        "zh": "我赶上关门时间迟到了。",
+        "vi": "Tôi đã trễ giờ đóng cửa ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "영업 시간,계산,약속"
+      },
+      {
+        "plain": "[깎아] 주셔서 감사합니다.",
+        "en": "Thank you for the discount.",
+        "ja": "まけてくださってありがとうございます。",
+        "zh": "谢谢您给我优惠。",
+        "vi": "Cảm ơn bạn đã giảm giá cho tôi ạ.",
+        "pattern": "V아/어 주셔서 감사합니다",
+        "keys": "포장해,교환해,설명해"
+      },
+      {
+        "plain": "[물건]을 떨어뜨려서 죄송합니다.",
+        "en": "I'm sorry I dropped the item.",
+        "ja": "商品を落としてすみません。",
+        "zh": "不好意思，我把东西掉了。",
+        "vi": "Xin lỗi vì tôi làm rơi món hàng ạ.",
+        "pattern": "N을/를 V아/어서 죄송합니다",
+        "keys": "상품,유리컵,과일"
+      },
+      {
+        "plain": "[덕분에] 싸게 샀어요.",
+        "en": "Thanks to you, I bought it cheaply.",
+        "ja": "おかげさまで安く買えました。",
+        "zh": "多亏您，我买得很便宜。",
+        "vi": "Nhờ bạn mà tôi đã mua được giá rẻ ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "clinic": {
+    "id": "clinic",
+    "tier": 2,
+    "emoji": "🏥",
+    "name": "병원 / 약국",
+    "rows": [
+      {
+        "plain": "[병원]이 어디예요?",
+        "en": "Where is the hospital?",
+        "ja": "病院はどこですか？",
+        "zh": "医院在哪里？",
+        "vi": "Bệnh viện ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "약국,응급실,보건소"
+      },
+      {
+        "plain": "[약] 좀 주세요.",
+        "en": "Could I have some medicine, please?",
+        "ja": "薬をください。",
+        "zh": "请给我一些药。",
+        "vi": "Cho tôi xin ít thuốc ạ.",
+        "pattern": "N 주세요",
+        "keys": "물,반창고,마스크"
+      },
+      {
+        "plain": "[진통제] 있어요?",
+        "en": "Do you have painkillers?",
+        "ja": "鎮痛剤はありますか？",
+        "zh": "有止痛药吗？",
+        "vi": "Có thuốc giảm đau không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "소화제,감기약,연고"
+      },
+      {
+        "plain": "[약국]이 어디예요?",
+        "en": "Where is the pharmacy?",
+        "ja": "薬局はどこですか？",
+        "zh": "药店在哪里？",
+        "vi": "Hiệu thuốc ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "병원,응급실,편의점"
+      },
+      {
+        "plain": "영어로 말하는 [의사] 있어요?",
+        "en": "Is there a doctor who speaks English?",
+        "ja": "英語を話せる医者はいますか？",
+        "zh": "有会说英语的医生吗？",
+        "vi": "Có bác sĩ nói tiếng Anh không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "간호사,통역,직원"
+      },
+      {
+        "plain": "[진료]를 받고 싶어요.",
+        "en": "I'd like to see a doctor.",
+        "ja": "診察を受けたいです。",
+        "zh": "我想看病。",
+        "vi": "Tôi muốn được khám bệnh ạ.",
+        "pattern": "N을/를 받고 싶어요",
+        "keys": "검사,치료,주사"
+      },
+      {
+        "plain": "[예약]하고 싶어요.",
+        "en": "I'd like to make an appointment.",
+        "ja": "予約したいです。",
+        "zh": "我想预约。",
+        "vi": "Tôi muốn đặt lịch hẹn ạ.",
+        "pattern": "N하고 싶어요",
+        "keys": "취소,변경,검사"
+      },
+      {
+        "plain": "[진통제]를 [소화제]로 바꿔 주세요.",
+        "en": "Please change the painkiller to a digestive medicine.",
+        "ja": "鎮痛剤を消化剤に変えてください。",
+        "zh": "请把止痛药换成消化药。",
+        "vi": "Làm ơn đổi thuốc giảm đau sang thuốc tiêu hóa ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "2:감기약,연고,비타민"
+      },
+      {
+        "plain": "[체온]을 확인해 주세요.",
+        "en": "Please check my temperature.",
+        "ja": "体温を確認してください。",
+        "zh": "请量一下我的体温。",
+        "vi": "Làm ơn đo nhiệt độ cho tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "혈압,맥박,체중"
+      },
+      {
+        "plain": "[혈압]을 확인해 주세요.",
+        "en": "Please check my blood pressure.",
+        "ja": "血圧を確認してください。",
+        "zh": "请量一下我的血压。",
+        "vi": "Làm ơn đo huyết áp cho tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "체온,맥박,체중"
+      },
+      {
+        "plain": "[알레르기]가 있는지 확인해 주세요.",
+        "en": "Please check whether I have any allergies.",
+        "ja": "アレルギーがあるか確認してください。",
+        "zh": "请确认我有没有过敏。",
+        "vi": "Làm ơn kiểm tra xem tôi có bị dị ứng không ạ.",
+        "pattern": "N이/가 있는지 확인해 주세요",
+        "keys": "부작용,기록,병력"
+      },
+      {
+        "plain": "[보험]이 되는지 확인해 주세요.",
+        "en": "Please check whether my insurance covers this.",
+        "ja": "保険が使えるか確認してください。",
+        "zh": "请确认一下保险能不能用。",
+        "vi": "Làm ơn kiểm tra xem bảo hiểm có áp dụng không ạ.",
+        "pattern": "N이/가 되는지 확인해 주세요",
+        "keys": "카드,예약,진료비"
+      },
+      {
+        "plain": "[열]이 안 내려요.",
+        "en": "My fever won't go down.",
+        "ja": "熱が下がりません。",
+        "zh": "烧退不下来。",
+        "vi": "Tôi bị sốt mà không hạ ạ.",
+        "pattern": "N이/가 안 V",
+        "keys": "기침,두통,통증"
+      },
+      {
+        "plain": "[잠]이 안 와요.",
+        "en": "I can't sleep.",
+        "ja": "眠れません。",
+        "zh": "我睡不着。",
+        "vi": "Tôi không ngủ được ạ.",
+        "pattern": "N이/가 안 와요",
+        "keys": "졸음,입맛,기운"
+      },
+      {
+        "plain": "[약]을 잃어버렸어요.",
+        "en": "I lost my medicine.",
+        "ja": "薬をなくしました。",
+        "zh": "我把药弄丢了。",
+        "vi": "Tôi làm mất thuốc ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "처방전,진료 카드,안경"
+      },
+      {
+        "plain": "[보험 카드]를 잃어버렸어요.",
+        "en": "I lost my insurance card.",
+        "ja": "保険証をなくしました。",
+        "zh": "我把保险卡弄丢了。",
+        "vi": "Tôi làm mất thẻ bảo hiểm ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "여권,진료 카드,영수증"
+      },
+      {
+        "plain": "[예약 시간]에 늦었어요.",
+        "en": "I'm late for my appointment.",
+        "ja": "予約の時間に遅れました。",
+        "zh": "我预约的时间迟到了。",
+        "vi": "Tôi đã trễ giờ hẹn khám ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "검사,진료,약속"
+      },
+      {
+        "plain": "[치료]해 주셔서 감사합니다.",
+        "en": "Thank you for treating me.",
+        "ja": "治療してくださってありがとうございます。",
+        "zh": "谢谢您为我治疗。",
+        "vi": "Cảm ơn bác sĩ đã điều trị cho tôi ạ.",
+        "pattern": "N해 주셔서 감사합니다",
+        "keys": "진찰,처방,설명"
+      },
+      {
+        "plain": "[기다리게] 해서 죄송합니다.",
+        "en": "I'm sorry to have kept you waiting.",
+        "ja": "お待たせしてすみません。",
+        "zh": "不好意思让您久等了。",
+        "vi": "Xin lỗi vì đã để bạn phải chờ ạ.",
+        "pattern": "V게 해서 죄송합니다",
+        "keys": "늦게,불편하게,걱정하게"
+      },
+      {
+        "plain": "[덕분에] 많이 좋아졌어요.",
+        "en": "Thanks to you, I feel much better.",
+        "ja": "おかげさまでだいぶ良くなりました。",
+        "zh": "多亏您，我好多了。",
+        "vi": "Nhờ bác sĩ mà tôi đã đỡ nhiều rồi ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "phone": {
+    "id": "phone",
+    "tier": 2,
+    "emoji": "📞",
+    "name": "전화 / 예약 / 취소",
+    "rows": [
+      {
+        "plain": "[담당자] 있어요?",
+        "en": "Is the person in charge available?",
+        "ja": "担当者はいますか？",
+        "zh": "负责人在吗？",
+        "vi": "Người phụ trách có ở đó không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "사장님,직원,통역"
+      },
+      {
+        "plain": "[전화번호] 좀 주세요.",
+        "en": "Could I have your phone number, please?",
+        "ja": "電話番号を教えてください。",
+        "zh": "请给我您的电话号码。",
+        "vi": "Cho tôi xin số điện thoại ạ.",
+        "pattern": "N 주세요",
+        "keys": "이메일,주소,명함"
+      },
+      {
+        "plain": "[빈 자리] 있어요?",
+        "en": "Do you have any openings?",
+        "ja": "空いている席はありますか？",
+        "zh": "有空位吗？",
+        "vi": "Còn chỗ trống không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "빈 방,예약석,다른 시간"
+      },
+      {
+        "plain": "[사무실]이 어디예요?",
+        "en": "Where is the office?",
+        "ja": "事務所はどこですか？",
+        "zh": "办公室在哪里？",
+        "vi": "Văn phòng ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "안내 데스크,회의실,지점"
+      },
+      {
+        "plain": "[예약 번호] 좀 알려 주세요.",
+        "en": "Could you tell me the reservation number?",
+        "ja": "予約番号を教えてください。",
+        "zh": "请告诉我预约号码。",
+        "vi": "Làm ơn cho tôi biết mã đặt chỗ ạ.",
+        "pattern": "N 좀 알려 주세요",
+        "keys": "전화번호,주소,시간"
+      },
+      {
+        "plain": "[예약]하고 싶어요.",
+        "en": "I'd like to make a reservation.",
+        "ja": "予約したいです。",
+        "zh": "我想预订。",
+        "vi": "Tôi muốn đặt chỗ ạ.",
+        "pattern": "N하고 싶어요",
+        "keys": "취소,변경,확인"
+      },
+      {
+        "plain": "[취소]하고 싶어요.",
+        "en": "I'd like to cancel.",
+        "ja": "キャンセルしたいです。",
+        "zh": "我想取消。",
+        "vi": "Tôi muốn hủy ạ.",
+        "pattern": "N하고 싶어요",
+        "keys": "예약,변경,환불"
+      },
+      {
+        "plain": "[예약]을 [내일]로 바꿔 주세요.",
+        "en": "Please change the reservation to tomorrow.",
+        "ja": "予約を明日に変えてください。",
+        "zh": "请把预约改到明天。",
+        "vi": "Làm ơn đổi lịch đặt sang ngày mai ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "약속,시간,일정"
+      },
+      {
+        "plain": "[시간]을 확인해 주세요.",
+        "en": "Please check the time.",
+        "ja": "時間を確認してください。",
+        "zh": "请确认一下时间。",
+        "vi": "Làm ơn xác nhận thời gian ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "날짜,인원,장소"
+      },
+      {
+        "plain": "[예약]을 확인해 주세요.",
+        "en": "Please check my reservation.",
+        "ja": "予約を確認してください。",
+        "zh": "请确认一下我的预订。",
+        "vi": "Làm ơn kiểm tra đặt chỗ của tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "시간,인원,이름"
+      },
+      {
+        "plain": "[인원]을 확인해 주세요.",
+        "en": "Please confirm the number of people.",
+        "ja": "人数を確認してください。",
+        "zh": "请确认一下人数。",
+        "vi": "Làm ơn xác nhận số người ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "시간,날짜,예약"
+      },
+      {
+        "plain": "[다시] 전화해 주세요.",
+        "en": "Please call me back.",
+        "ja": "折り返し電話してください。",
+        "zh": "请回电话给我。",
+        "vi": "Làm ơn gọi lại cho tôi ạ.",
+        "pattern": "N V해 주세요",
+        "keys": "내일,오후,저녁에"
+      },
+      {
+        "plain": "[전화]가 안 돼요.",
+        "en": "The phone doesn't work.",
+        "ja": "電話がつながりません。",
+        "zh": "电话打不通。",
+        "vi": "Điện thoại không gọi được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "인터넷,문자,통화"
+      },
+      {
+        "plain": "[예약]이 안 돼요.",
+        "en": "I can't make a reservation.",
+        "ja": "予約ができません。",
+        "zh": "无法预订。",
+        "vi": "Tôi không đặt chỗ được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "취소,변경,결제"
+      },
+      {
+        "plain": "[전화번호]를 잃어버렸어요.",
+        "en": "I lost the phone number.",
+        "ja": "電話番号をなくしました。",
+        "zh": "我把电话号码弄丢了。",
+        "vi": "Tôi làm mất số điện thoại ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "이메일,주소,명함"
+      },
+      {
+        "plain": "[휴대폰]을 잃어버렸어요.",
+        "en": "I lost my phone.",
+        "ja": "携帯電話をなくしました。",
+        "zh": "我把手机弄丢了。",
+        "vi": "Tôi làm mất điện thoại ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "지갑,가방,충전기"
+      },
+      {
+        "plain": "[예약 시간]에 늦었어요.",
+        "en": "I'm late for my reservation.",
+        "ja": "予約の時間に遅れました。",
+        "zh": "我预订的时间迟到了。",
+        "vi": "Tôi đã trễ giờ đặt chỗ ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "약속,회의,식사"
+      },
+      {
+        "plain": "[전화]를 받아 주셔서 감사합니다.",
+        "en": "Thank you for answering the phone.",
+        "ja": "電話に出てくださってありがとうございます。",
+        "zh": "谢谢您接电话。",
+        "vi": "Cảm ơn bạn đã nghe máy ạ.",
+        "pattern": "N을/를 받아 주셔서 감사합니다",
+        "keys": "문자,메시지,연락"
+      },
+      {
+        "plain": "[늦게] 전화해서 죄송합니다.",
+        "en": "I'm sorry for calling late.",
+        "ja": "遅くに電話してすみません。",
+        "zh": "不好意思这么晚打电话。",
+        "vi": "Xin lỗi vì đã gọi điện muộn ạ.",
+        "pattern": "V아/어서 죄송합니다",
+        "keys": "갑자기,여러 번,아침 일찍"
+      },
+      {
+        "plain": "[덕분에] 예약했어요.",
+        "en": "Thanks to you, I made the reservation.",
+        "ja": "おかげさまで予約できました。",
+        "zh": "多亏您，我预订好了。",
+        "vi": "Nhờ bạn mà tôi đã đặt chỗ được ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "money": {
+    "id": "money",
+    "tier": 2,
+    "emoji": "💳",
+    "name": "돈 / 환전 / 결제 트러블",
+    "rows": [
+      {
+        "plain": "[환전소]가 어디예요?",
+        "en": "Where is the currency exchange?",
+        "ja": "両替所はどこですか？",
+        "zh": "兑换处在哪里？",
+        "vi": "Quầy đổi tiền ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "은행,현금인출기,편의점"
+      },
+      {
+        "plain": "[잔돈] 좀 주세요.",
+        "en": "Could I have some change, please?",
+        "ja": "小銭をください。",
+        "zh": "请给我一些零钱。",
+        "vi": "Cho tôi xin ít tiền lẻ ạ.",
+        "pattern": "N 주세요",
+        "keys": "영수증,봉투,거스름돈"
+      },
+      {
+        "plain": "[현금인출기] 있어요?",
+        "en": "Is there an ATM?",
+        "ja": "ATMはありますか？",
+        "zh": "有自动取款机吗？",
+        "vi": "Có máy ATM không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "은행,환전소,편의점"
+      },
+      {
+        "plain": "[은행]이 어디예요?",
+        "en": "Where is the bank?",
+        "ja": "銀行はどこですか？",
+        "zh": "银行在哪里？",
+        "vi": "Ngân hàng ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "환전소,우체국,현금인출기"
+      },
+      {
+        "plain": "[영수증] 주세요.",
+        "en": "A receipt, please.",
+        "ja": "レシートをください。",
+        "zh": "请给我收据。",
+        "vi": "Cho tôi xin hóa đơn ạ.",
+        "pattern": "N 주세요",
+        "keys": "잔돈,봉투,명세서"
+      },
+      {
+        "plain": "[환전]하고 싶어요.",
+        "en": "I'd like to exchange money.",
+        "ja": "両替したいです。",
+        "zh": "我想换钱。",
+        "vi": "Tôi muốn đổi tiền ạ.",
+        "pattern": "N하고 싶어요",
+        "keys": "송금,출금,입금"
+      },
+      {
+        "plain": "[송금]하고 싶어요.",
+        "en": "I'd like to send money.",
+        "ja": "送金したいです。",
+        "zh": "我想汇款。",
+        "vi": "Tôi muốn chuyển tiền ạ.",
+        "pattern": "N하고 싶어요",
+        "keys": "환전,출금,입금"
+      },
+      {
+        "plain": "[달러]를 [원]으로 바꿔 주세요.",
+        "en": "Please change dollars into won.",
+        "ja": "ドルをウォンに両替してください。",
+        "zh": "请把美元换成韩元。",
+        "vi": "Làm ơn đổi đô la sang won ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "2:엔,위안,동"
+      },
+      {
+        "plain": "[환율]을 확인해 주세요.",
+        "en": "Please check the exchange rate.",
+        "ja": "為替レートを確認してください。",
+        "zh": "请确认一下汇率。",
+        "vi": "Làm ơn kiểm tra tỷ giá giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "수수료,금액,잔액"
+      },
+      {
+        "plain": "[금액]을 확인해 주세요.",
+        "en": "Please check the amount.",
+        "ja": "金額を確認してください。",
+        "zh": "请确认一下金额。",
+        "vi": "Làm ơn kiểm tra số tiền giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "환율,수수료,잔액"
+      },
+      {
+        "plain": "[잔액]을 확인해 주세요.",
+        "en": "Please check the balance.",
+        "ja": "残高を確認してください。",
+        "zh": "请确认一下余额。",
+        "vi": "Làm ơn kiểm tra số dư giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "금액,환율,수수료"
+      },
+      {
+        "plain": "[수수료]를 확인해 주세요.",
+        "en": "Please check the fee.",
+        "ja": "手数料を確認してください。",
+        "zh": "请确认一下手续费。",
+        "vi": "Làm ơn kiểm tra phí giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "환율,금액,잔액"
+      },
+      {
+        "plain": "[카드]가 안 돼요.",
+        "en": "The card doesn't work.",
+        "ja": "カードが使えません。",
+        "zh": "卡不能用。",
+        "vi": "Thẻ không dùng được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "현금,휴대폰 결제,계좌"
+      },
+      {
+        "plain": "[결제]가 안 돼요.",
+        "en": "The payment doesn't go through.",
+        "ja": "決済ができません。",
+        "zh": "付不了款。",
+        "vi": "Thanh toán không được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "송금,인증,환불"
+      },
+      {
+        "plain": "[카드]를 잃어버렸어요.",
+        "en": "I lost my card.",
+        "ja": "カードをなくしました。",
+        "zh": "我把卡弄丢了。",
+        "vi": "Tôi làm mất thẻ ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "지갑,통장,영수증"
+      },
+      {
+        "plain": "[돈]을 잃어버렸어요.",
+        "en": "I lost my money.",
+        "ja": "お金をなくしました。",
+        "zh": "我把钱弄丢了。",
+        "vi": "Tôi làm mất tiền ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "지갑,통장,카드"
+      },
+      {
+        "plain": "[입금]이 늦었어요.",
+        "en": "The deposit is late.",
+        "ja": "入金が遅れました。",
+        "zh": "入账晚了。",
+        "vi": "Tiền vào tài khoản bị chậm ạ.",
+        "pattern": "N이/가 늦었어요",
+        "keys": "송금,결제,환불"
+      },
+      {
+        "plain": "[환전]해 주셔서 감사합니다.",
+        "en": "Thank you for exchanging my money.",
+        "ja": "両替してくださってありがとうございます。",
+        "zh": "谢谢您帮我换钱。",
+        "vi": "Cảm ơn bạn đã đổi tiền giúp tôi ạ.",
+        "pattern": "N해 주셔서 감사합니다",
+        "keys": "송금,안내,설명"
+      },
+      {
+        "plain": "[두 번] 결제해서 죄송합니다.",
+        "en": "I'm sorry I paid twice.",
+        "ja": "二重に決済してすみません。",
+        "zh": "不好意思，我付了两次款。",
+        "vi": "Xin lỗi vì tôi đã thanh toán hai lần ạ.",
+        "pattern": "N V아/어서 죄송합니다",
+        "keys": "잘못,늦게,여러 번"
+      },
+      {
+        "plain": "[덕분에] 환불받았어요.",
+        "en": "Thanks to you, I got my refund.",
+        "ja": "おかげさまで返金してもらえました。",
+        "zh": "多亏您，我拿到退款了。",
+        "vi": "Nhờ bạn mà tôi đã được hoàn tiền ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "lost": {
+    "id": "lost",
+    "tier": 2,
+    "emoji": "🆘",
+    "name": "분실 / 도난 / 경찰서",
+    "rows": [
+      {
+        "plain": "[경찰서]가 어디예요?",
+        "en": "Where is the police station?",
+        "ja": "警察署はどこですか？",
+        "zh": "警察局在哪里？",
+        "vi": "Đồn cảnh sát ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "대사관,병원,파출소"
+      },
+      {
+        "plain": "[도움] 좀 주세요.",
+        "en": "Please help me.",
+        "ja": "助けてください。",
+        "zh": "请帮帮我。",
+        "vi": "Làm ơn giúp tôi ạ.",
+        "pattern": "N 주세요",
+        "keys": "통역,설명,안내"
+      },
+      {
+        "plain": "[분실물 센터] 있어요?",
+        "en": "Is there a lost and found?",
+        "ja": "遺失物センターはありますか？",
+        "zh": "有失物招领处吗？",
+        "vi": "Có quầy đồ thất lạc không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "경찰서,통역,안내 데스크"
+      },
+      {
+        "plain": "[대사관]이 어디예요?",
+        "en": "Where is the embassy?",
+        "ja": "大使館はどこですか？",
+        "zh": "大使馆在哪里？",
+        "vi": "Đại sứ quán ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "경찰서,영사관,병원"
+      },
+      {
+        "plain": "[신고서] 한 장 주세요.",
+        "en": "Could I have a report form, please?",
+        "ja": "届出用紙を1枚ください。",
+        "zh": "请给我一张报案表。",
+        "vi": "Cho tôi một mẫu đơn trình báo ạ.",
+        "pattern": "N 주세요",
+        "keys": "펜,통역,사본"
+      },
+      {
+        "plain": "[신고]하고 싶어요.",
+        "en": "I'd like to report it.",
+        "ja": "届け出たいです。",
+        "zh": "我想报案。",
+        "vi": "Tôi muốn trình báo ạ.",
+        "pattern": "N하고 싶어요",
+        "keys": "분실,도난,사고"
+      },
+      {
+        "plain": "[대사관]에 연락하고 싶어요.",
+        "en": "I'd like to contact the embassy.",
+        "ja": "大使館に連絡したいです。",
+        "zh": "我想联系大使馆。",
+        "vi": "Tôi muốn liên lạc với đại sứ quán ạ.",
+        "pattern": "N에 연락하고 싶어요",
+        "keys": "가족,회사,경찰서"
+      },
+      {
+        "plain": "[카드]를 정지해 주세요.",
+        "en": "Please suspend my card.",
+        "ja": "カードを停止してください。",
+        "zh": "请帮我冻结这张卡。",
+        "vi": "Làm ơn khóa thẻ của tôi ạ.",
+        "pattern": "N을/를 정지해 주세요",
+        "keys": "계좌,휴대폰,통장"
+      },
+      {
+        "plain": "[신고서]를 확인해 주세요.",
+        "en": "Please check the report form.",
+        "ja": "届出書を確認してください。",
+        "zh": "请确认一下报案表。",
+        "vi": "Làm ơn kiểm tra đơn trình báo ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "사본,연락처,진술서"
+      },
+      {
+        "plain": "[연락처]를 확인해 주세요.",
+        "en": "Please check my contact information.",
+        "ja": "連絡先を確認してください。",
+        "zh": "请确认一下我的联系方式。",
+        "vi": "Làm ơn kiểm tra thông tin liên lạc của tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "주소,이름,신고서"
+      },
+      {
+        "plain": "[분실물]을 확인해 주세요.",
+        "en": "Please check for my lost item.",
+        "ja": "遺失物を確認してください。",
+        "zh": "请帮我查一下遗失的物品。",
+        "vi": "Làm ơn kiểm tra giúp đồ tôi bị mất ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "신고서,접수,연락처"
+      },
+      {
+        "plain": "[CCTV]를 확인해 주세요.",
+        "en": "Please check the CCTV.",
+        "ja": "防犯カメラを確認してください。",
+        "zh": "请查看一下监控录像。",
+        "vi": "Làm ơn kiểm tra camera an ninh giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "기록,영상,시간"
+      },
+      {
+        "plain": "[지갑]을 잃어버렸어요.",
+        "en": "I lost my wallet.",
+        "ja": "財布をなくしました。",
+        "zh": "我把钱包弄丢了。",
+        "vi": "Tôi làm mất ví ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "가방,휴대폰,카드"
+      },
+      {
+        "plain": "[여권]을 잃어버렸어요.",
+        "en": "I lost my passport.",
+        "ja": "パスポートをなくしました。",
+        "zh": "我把护照弄丢了。",
+        "vi": "Tôi làm mất hộ chiếu ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "비자,탑승권,신분증"
+      },
+      {
+        "plain": "[가방]을 도둑맞았어요.",
+        "en": "My bag was stolen.",
+        "ja": "かばんを盗まれました。",
+        "zh": "我的包被偷了。",
+        "vi": "Túi của tôi bị trộm mất rồi ạ.",
+        "pattern": "N을/를 도둑맞았어요",
+        "keys": "지갑,휴대폰,카메라"
+      },
+      {
+        "plain": "[노트북]을 잃어버렸어요.",
+        "en": "I lost my laptop.",
+        "ja": "ノートパソコンをなくしました。",
+        "zh": "我把笔记本电脑弄丢了。",
+        "vi": "Tôi làm mất máy tính xách tay ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "카메라,가방,충전기"
+      },
+      {
+        "plain": "[대사관 업무 시간]에 늦었어요.",
+        "en": "I'm late for the embassy's business hours.",
+        "ja": "大使館の業務時間に遅れました。",
+        "zh": "我错过了大使馆的办公时间。",
+        "vi": "Tôi đã trễ giờ làm việc của đại sứ quán ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "신고 시간,영업 시간,약속"
+      },
+      {
+        "plain": "[도와]주셔서 감사합니다.",
+        "en": "Thank you for helping me.",
+        "ja": "助けてくださってありがとうございます。",
+        "zh": "谢谢您帮助我。",
+        "vi": "Cảm ơn bạn đã giúp tôi ạ.",
+        "pattern": "V아/어 주셔서 감사합니다",
+        "keys": "알려,찾아,연락해"
+      },
+      {
+        "plain": "[소란]을 피워서 죄송합니다.",
+        "en": "I'm sorry for making a commotion.",
+        "ja": "騒いでしまってすみません。",
+        "zh": "不好意思，我吵闹了。",
+        "vi": "Xin lỗi vì tôi đã làm ồn ạ.",
+        "pattern": "N을/를 V아/어서 죄송합니다",
+        "keys": "실수,폐,소동"
+      },
+      {
+        "plain": "[덕분에] 찾았어요.",
+        "en": "Thanks to you, I found it.",
+        "ja": "おかげさまで見つかりました。",
+        "zh": "多亏您，我找到了。",
+        "vi": "Nhờ bạn mà tôi đã tìm được rồi ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "time": {
+    "id": "time",
+    "tier": 2,
+    "emoji": "🌤️",
+    "name": "날씨 / 날짜 / 시간 약속",
+    "rows": [
+      {
+        "plain": "[약속 장소]가 어디예요?",
+        "en": "Where is the meeting place?",
+        "ja": "約束の場所はどこですか？",
+        "zh": "见面的地点在哪里？",
+        "vi": "Địa điểm hẹn ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "정류장,역,식당"
+      },
+      {
+        "plain": "[일정표] 좀 주세요.",
+        "en": "Could I have the schedule, please?",
+        "ja": "日程表をください。",
+        "zh": "请给我日程表。",
+        "vi": "Cho tôi xin lịch trình ạ.",
+        "pattern": "N 주세요",
+        "keys": "지도,시간표,메모"
+      },
+      {
+        "plain": "[시간] 있어요?",
+        "en": "Do you have time?",
+        "ja": "時間はありますか？",
+        "zh": "你有时间吗？",
+        "vi": "Bạn có thời gian không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "약속,계획,여유"
+      },
+      {
+        "plain": "[우산] 있어요?",
+        "en": "Do you have an umbrella?",
+        "ja": "傘はありますか？",
+        "zh": "有雨伞吗？",
+        "vi": "Bạn có ô không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "외투,모자,선글라스"
+      },
+      {
+        "plain": "[빈 시간] 있어요?",
+        "en": "Do you have any free time?",
+        "ja": "空いている時間はありますか？",
+        "zh": "有空闲时间吗？",
+        "vi": "Bạn có thời gian rảnh không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "주말,저녁,내일"
+      },
+      {
+        "plain": "[내일] 만나고 싶어요.",
+        "en": "I'd like to meet tomorrow.",
+        "ja": "明日会いたいです。",
+        "zh": "我想明天见面。",
+        "vi": "Tôi muốn gặp vào ngày mai ạ.",
+        "pattern": "N V고 싶어요",
+        "keys": "오늘,모레,주말"
+      },
+      {
+        "plain": "[오후]에 가고 싶어요.",
+        "en": "I'd like to go in the afternoon.",
+        "ja": "午後に行きたいです。",
+        "zh": "我想下午去。",
+        "vi": "Tôi muốn đi vào buổi chiều ạ.",
+        "pattern": "N에 V고 싶어요",
+        "keys": "아침,저녁,오전"
+      },
+      {
+        "plain": "[약속]을 [금요일]로 바꿔 주세요.",
+        "en": "Please change the appointment to Friday.",
+        "ja": "約束を金曜日に変えてください。",
+        "zh": "请把约定改到星期五。",
+        "vi": "Làm ơn đổi cuộc hẹn sang thứ Sáu ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "예약,일정,회의"
+      },
+      {
+        "plain": "[날짜]를 확인해 주세요.",
+        "en": "Please confirm the date.",
+        "ja": "日付を確認してください。",
+        "zh": "请确认一下日期。",
+        "vi": "Làm ơn xác nhận ngày ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "시간,장소,요일"
+      },
+      {
+        "plain": "[시간]을 확인해 주세요.",
+        "en": "Please confirm the time.",
+        "ja": "時間を確認してください。",
+        "zh": "请确认一下时间。",
+        "vi": "Làm ơn xác nhận giờ ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "날짜,장소,요일"
+      },
+      {
+        "plain": "[날씨]를 확인해 주세요.",
+        "en": "Please check the weather.",
+        "ja": "天気を確認してください。",
+        "zh": "请查一下天气。",
+        "vi": "Làm ơn kiểm tra thời tiết giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "기온,예보,시간"
+      },
+      {
+        "plain": "[장소]를 확인해 주세요.",
+        "en": "Please confirm the place.",
+        "ja": "場所を確認してください。",
+        "zh": "请确认一下地点。",
+        "vi": "Làm ơn xác nhận địa điểm ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "날짜,시간,주소"
+      },
+      {
+        "plain": "[비]가 와서 안 돼요.",
+        "en": "I can't because it's raining.",
+        "ja": "雨が降っているのでできません。",
+        "zh": "因为下雨，不行。",
+        "vi": "Vì trời mưa nên không được ạ.",
+        "pattern": "N이/가 V아/어서 안 돼요",
+        "keys": "눈,바람,태풍"
+      },
+      {
+        "plain": "[시간]이 안 돼요.",
+        "en": "That time doesn't work for me.",
+        "ja": "その時間は都合がつきません。",
+        "zh": "那个时间我不行。",
+        "vi": "Giờ đó tôi không được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "날짜,요일,장소"
+      },
+      {
+        "plain": "[일정표]를 잃어버렸어요.",
+        "en": "I lost my schedule.",
+        "ja": "日程表をなくしました。",
+        "zh": "我把日程表弄丢了。",
+        "vi": "Tôi làm mất lịch trình ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "메모,지도,달력"
+      },
+      {
+        "plain": "[약속 시간]을 잊어버렸어요.",
+        "en": "I forgot the meeting time.",
+        "ja": "約束の時間を忘れました。",
+        "zh": "我忘了约定的时间。",
+        "vi": "Tôi quên giờ hẹn rồi ạ.",
+        "pattern": "N을/를 잊어버렸어요",
+        "keys": "약속 장소,날짜,이름"
+      },
+      {
+        "plain": "[약속]에 늦었어요.",
+        "en": "I'm late for the appointment.",
+        "ja": "約束に遅れました。",
+        "zh": "我约会迟到了。",
+        "vi": "Tôi đã trễ cuộc hẹn ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "회의,식사,수업"
+      },
+      {
+        "plain": "[시간]을 내 주셔서 감사합니다.",
+        "en": "Thank you for making time for me.",
+        "ja": "お時間を作ってくださってありがとうございます。",
+        "zh": "谢谢您抽时间给我。",
+        "vi": "Cảm ơn bạn đã dành thời gian cho tôi ạ.",
+        "pattern": "N을/를 V아/어 주셔서 감사합니다",
+        "keys": "기회,자리,배려"
+      },
+      {
+        "plain": "[약속]을 취소해서 죄송합니다.",
+        "en": "I'm sorry I cancelled our appointment.",
+        "ja": "約束をキャンセルしてすみません。",
+        "zh": "不好意思，我取消了约定。",
+        "vi": "Xin lỗi vì tôi đã hủy cuộc hẹn ạ.",
+        "pattern": "N을/를 V아/어서 죄송합니다",
+        "keys": "예약,일정,회의"
+      },
+      {
+        "plain": "[덕분에] 제시간에 만났어요.",
+        "en": "Thanks to you, we met on time.",
+        "ja": "おかげさまで時間通りに会えました。",
+        "zh": "多亏您，我们准时见面了。",
+        "vi": "Nhờ bạn mà chúng tôi đã gặp đúng giờ ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "intro": {
+    "id": "intro",
+    "tier": 3,
+    "emoji": "👋",
+    "name": "자기소개 / 인사 / 감사·사과",
+    "rows": [
+      {
+        "plain": "[고향]이 어디예요?",
+        "en": "Where is your hometown?",
+        "ja": "ご出身はどちらですか？",
+        "zh": "你的老家在哪里？",
+        "vi": "Quê bạn ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "집,회사,학교"
+      },
+      {
+        "plain": "[명함] 하나 주세요.",
+        "en": "Could I have a business card, please?",
+        "ja": "名刺を1枚ください。",
+        "zh": "请给我一张名片。",
+        "vi": "Cho tôi xin một tấm danh thiếp ạ.",
+        "pattern": "N 주세요",
+        "keys": "연락처,이메일,주소"
+      },
+      {
+        "plain": "[질문] 있어요?",
+        "en": "Do you have any questions?",
+        "ja": "質問はありますか？",
+        "zh": "有问题吗？",
+        "vi": "Bạn có câu hỏi nào không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "계획,취미,시간"
+      },
+      {
+        "plain": "[모임 장소]가 어디예요?",
+        "en": "Where is the gathering?",
+        "ja": "集まりの場所はどこですか？",
+        "zh": "聚会的地点在哪里？",
+        "vi": "Địa điểm họp mặt ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "식당,역,교실"
+      },
+      {
+        "plain": "[한국어 책] 있어요?",
+        "en": "Do you have a Korean book?",
+        "ja": "韓国語の本はありますか？",
+        "zh": "有韩语书吗？",
+        "vi": "Bạn có sách tiếng Hàn không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "사전,공책,연필"
+      },
+      {
+        "plain": "[자기소개]를 하고 싶어요.",
+        "en": "I'd like to introduce myself.",
+        "ja": "自己紹介をしたいです。",
+        "zh": "我想做自我介绍。",
+        "vi": "Tôi muốn giới thiệu bản thân ạ.",
+        "pattern": "N을/를 V고 싶어요",
+        "keys": "인사,질문,발표"
+      },
+      {
+        "plain": "[친구]가 되고 싶어요.",
+        "en": "I'd like to be your friend.",
+        "ja": "友達になりたいです。",
+        "zh": "我想和你做朋友。",
+        "vi": "Tôi muốn làm bạn với bạn ạ.",
+        "pattern": "N이/가 되고 싶어요",
+        "keys": "선생님,동료,이웃"
+      },
+      {
+        "plain": "[이름]을 [별명]으로 불러 주세요.",
+        "en": "Please call me by my nickname instead of my name.",
+        "ja": "名前をニックネームで呼んでください。",
+        "zh": "请叫我的昵称，不要叫名字。",
+        "vi": "Làm ơn gọi tôi bằng biệt danh thay vì tên ạ.",
+        "pattern": "N을/를 N(으)로 불러 주세요",
+        "keys": "호칭,성,이름"
+      },
+      {
+        "plain": "[이름]을 확인해 주세요.",
+        "en": "Please check my name.",
+        "ja": "名前を確認してください。",
+        "zh": "请确认一下我的名字。",
+        "vi": "Làm ơn kiểm tra tên của tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "발음,철자,연락처"
+      },
+      {
+        "plain": "[발음]을 확인해 주세요.",
+        "en": "Please check my pronunciation.",
+        "ja": "発音を確認してください。",
+        "zh": "请确认一下我的发音。",
+        "vi": "Làm ơn kiểm tra phát âm của tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "철자,문장,억양"
+      },
+      {
+        "plain": "[연락처]를 확인해 주세요.",
+        "en": "Please check my contact information.",
+        "ja": "連絡先を確認してください。",
+        "zh": "请确认一下我的联系方式。",
+        "vi": "Làm ơn kiểm tra thông tin liên lạc của tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "주소,이름,전화번호"
+      },
+      {
+        "plain": "[한 번 더] 말해 주세요.",
+        "en": "Please say that once more.",
+        "ja": "もう一度言ってください。",
+        "zh": "请再说一遍。",
+        "vi": "Làm ơn nói lại một lần nữa ạ.",
+        "pattern": "N V해 주세요",
+        "keys": "천천히,크게,쉽게"
+      },
+      {
+        "plain": "[발음]이 안 돼요.",
+        "en": "I can't pronounce it.",
+        "ja": "発音できません。",
+        "zh": "我发不出这个音。",
+        "vi": "Tôi phát âm không được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "말,문장,억양"
+      },
+      {
+        "plain": "[이름]을 잊어버렸어요.",
+        "en": "I forgot your name.",
+        "ja": "お名前を忘れました。",
+        "zh": "我忘了你的名字。",
+        "vi": "Tôi quên tên bạn rồi ạ.",
+        "pattern": "N을/를 잊어버렸어요",
+        "keys": "얼굴,주소,번호"
+      },
+      {
+        "plain": "[명함]을 잃어버렸어요.",
+        "en": "I lost your business card.",
+        "ja": "名刺をなくしました。",
+        "zh": "我把你的名片弄丢了。",
+        "vi": "Tôi làm mất danh thiếp của bạn ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "연락처,지갑,공책"
+      },
+      {
+        "plain": "[단어]가 안 나와요.",
+        "en": "The word won't come to me.",
+        "ja": "言葉が出てきません。",
+        "zh": "我想不起那个词。",
+        "vi": "Tôi không nghĩ ra từ đó ạ.",
+        "pattern": "N이/가 안 나와요",
+        "keys": "말,이름,생각"
+      },
+      {
+        "plain": "[모임]에 늦었어요.",
+        "en": "I'm late for the gathering.",
+        "ja": "集まりに遅れました。",
+        "zh": "我聚会迟到了。",
+        "vi": "Tôi đã trễ buổi họp mặt ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "수업,약속,식사"
+      },
+      {
+        "plain": "[초대]해 주셔서 감사합니다.",
+        "en": "Thank you for inviting me.",
+        "ja": "招待してくださってありがとうございます。",
+        "zh": "谢谢您邀请我。",
+        "vi": "Cảm ơn bạn đã mời tôi ạ.",
+        "pattern": "N해 주셔서 감사합니다",
+        "keys": "안내,소개,연락"
+      },
+      {
+        "plain": "[이름]을 잘못 불러서 죄송합니다.",
+        "en": "I'm sorry I called you by the wrong name.",
+        "ja": "お名前を間違えてすみません。",
+        "zh": "不好意思，我叫错了你的名字。",
+        "vi": "Xin lỗi vì tôi đã gọi sai tên bạn ạ.",
+        "pattern": "N을/를 잘못 V아/어서 죄송합니다",
+        "keys": "발음,호칭,주소"
+      },
+      {
+        "plain": "[덕분에] 좋은 분들을 만났어요.",
+        "en": "Thanks to you, I met wonderful people.",
+        "ja": "おかげさまで素敵な方々に会えました。",
+        "zh": "多亏您，我认识了很好的人。",
+        "vi": "Nhờ bạn mà tôi đã gặp được những người tốt ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "family": {
+    "id": "family",
+    "tier": 3,
+    "emoji": "👨‍👩‍👧",
+    "name": "가족 / 친구 / 직업 소개",
+    "rows": [
+      {
+        "plain": "[가족]이 어디에 살아요?",
+        "en": "Where does your family live?",
+        "ja": "ご家族はどこに住んでいますか？",
+        "zh": "你的家人住在哪里？",
+        "vi": "Gia đình bạn sống ở đâu ạ?",
+        "pattern": "N이/가 어디에 살아요?",
+        "keys": "부모님,친구,형제"
+      },
+      {
+        "plain": "[가족 사진] 좀 보여 주세요.",
+        "en": "Could you show me a family photo?",
+        "ja": "家族の写真を見せてください。",
+        "zh": "请给我看一下全家福。",
+        "vi": "Cho tôi xem ảnh gia đình với ạ.",
+        "pattern": "N 좀 보여 주세요",
+        "keys": "사진,아이 사진,결혼 사진"
+      },
+      {
+        "plain": "[형제] 있어요?",
+        "en": "Do you have siblings?",
+        "ja": "兄弟はいますか？",
+        "zh": "你有兄弟姐妹吗？",
+        "vi": "Bạn có anh chị em không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "아이,반려동물,애인"
+      },
+      {
+        "plain": "[아이]는 몇 살이에요?",
+        "en": "How old is your child?",
+        "ja": "お子さんは何歳ですか？",
+        "zh": "你的孩子几岁了？",
+        "vi": "Con bạn mấy tuổi rồi ạ?",
+        "pattern": "N은/는 몇 살이에요?",
+        "keys": "딸,아들,조카"
+      },
+      {
+        "plain": "[반려동물] 있어요?",
+        "en": "Do you have a pet?",
+        "ja": "ペットはいますか？",
+        "zh": "你有宠物吗？",
+        "vi": "Bạn có thú cưng không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "형제,아이,취미"
+      },
+      {
+        "plain": "[가족]을 소개하고 싶어요.",
+        "en": "I'd like to introduce my family.",
+        "ja": "家族を紹介したいです。",
+        "zh": "我想介绍我的家人。",
+        "vi": "Tôi muốn giới thiệu gia đình tôi ạ.",
+        "pattern": "N을/를 소개하고 싶어요",
+        "keys": "친구,동료,선생님"
+      },
+      {
+        "plain": "[친구]를 소개하고 싶어요.",
+        "en": "I'd like to introduce my friend.",
+        "ja": "友達を紹介したいです。",
+        "zh": "我想介绍我的朋友。",
+        "vi": "Tôi muốn giới thiệu bạn của tôi ạ.",
+        "pattern": "N을/를 소개하고 싶어요",
+        "keys": "가족,동료,선생님"
+      },
+      {
+        "plain": "[직함]을 [팀장]으로 바꿔 주세요.",
+        "en": "Please change the title to team leader.",
+        "ja": "肩書きをチームリーダーに変えてください。",
+        "zh": "请把职位改成组长。",
+        "vi": "Làm ơn đổi chức danh sang trưởng nhóm ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "직업,호칭,이름"
+      },
+      {
+        "plain": "[친구 이름]을 확인해 주세요.",
+        "en": "Please check my friend's name.",
+        "ja": "友達の名前を確認してください。",
+        "zh": "请确认一下我朋友的名字。",
+        "vi": "Làm ơn kiểm tra tên bạn của tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "가족 이름,발음,연락처"
+      },
+      {
+        "plain": "[직업]을 확인해 주세요.",
+        "en": "Please check my occupation.",
+        "ja": "職業を確認してください。",
+        "zh": "请确认一下我的职业。",
+        "vi": "Làm ơn kiểm tra nghề nghiệp của tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "직함,회사,이름"
+      },
+      {
+        "plain": "[가족 관계]를 확인해 주세요.",
+        "en": "Please check the family relationship.",
+        "ja": "家族関係を確認してください。",
+        "zh": "请确认一下家庭关系。",
+        "vi": "Làm ơn kiểm tra quan hệ gia đình ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "직업,나이,이름"
+      },
+      {
+        "plain": "[사진]을 확인해 주세요.",
+        "en": "Please check the photo.",
+        "ja": "写真を確認してください。",
+        "zh": "请确认一下照片。",
+        "vi": "Làm ơn kiểm tra ảnh giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "이름,날짜,장소"
+      },
+      {
+        "plain": "[친구]가 안 와요.",
+        "en": "My friend isn't coming.",
+        "ja": "友達が来ません。",
+        "zh": "我朋友没来。",
+        "vi": "Bạn tôi không đến ạ.",
+        "pattern": "N이/가 안 와요",
+        "keys": "가족,동료,손님"
+      },
+      {
+        "plain": "[아이]가 안 자요.",
+        "en": "My child won't sleep.",
+        "ja": "子どもが寝ません。",
+        "zh": "孩子不肯睡觉。",
+        "vi": "Con tôi không chịu ngủ ạ.",
+        "pattern": "N이/가 안 V",
+        "keys": "아기,딸,아들"
+      },
+      {
+        "plain": "[사진]을 잃어버렸어요.",
+        "en": "I lost the photo.",
+        "ja": "写真をなくしました。",
+        "zh": "我把照片弄丢了。",
+        "vi": "Tôi làm mất tấm ảnh ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "앨범,지갑,휴대폰"
+      },
+      {
+        "plain": "[친구 연락처]를 잃어버렸어요.",
+        "en": "I lost my friend's contact information.",
+        "ja": "友達の連絡先をなくしました。",
+        "zh": "我把朋友的联系方式弄丢了。",
+        "vi": "Tôi làm mất thông tin liên lạc của bạn ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "명함,주소,전화번호"
+      },
+      {
+        "plain": "[가족 모임]에 늦었어요.",
+        "en": "I'm late for the family gathering.",
+        "ja": "家族の集まりに遅れました。",
+        "zh": "我家庭聚会迟到了。",
+        "vi": "Tôi đã trễ buổi họp mặt gia đình ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "식사,약속,생일 파티"
+      },
+      {
+        "plain": "[가족]처럼 대해 주셔서 감사합니다.",
+        "en": "Thank you for treating me like family.",
+        "ja": "家族のように接してくださってありがとうございます。",
+        "zh": "谢谢您把我当家人对待。",
+        "vi": "Cảm ơn bạn đã đối xử với tôi như người nhà ạ.",
+        "pattern": "N처럼 V아/어 주셔서 감사합니다",
+        "keys": "친구,형,동생"
+      },
+      {
+        "plain": "[친구]를 기다리게 해서 죄송합니다.",
+        "en": "I'm sorry I kept my friend waiting.",
+        "ja": "友達を待たせてすみません。",
+        "zh": "不好意思，让朋友久等了。",
+        "vi": "Xin lỗi vì đã để bạn tôi phải chờ ạ.",
+        "pattern": "N을/를 V게 해서 죄송합니다",
+        "keys": "가족,손님,동료"
+      },
+      {
+        "plain": "[덕분에] 좋은 친구를 사귀었어요.",
+        "en": "Thanks to you, I made a good friend.",
+        "ja": "おかげさまで良い友達ができました。",
+        "zh": "多亏您，我交到了好朋友。",
+        "vi": "Nhờ bạn mà tôi đã có một người bạn tốt ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "home": {
+    "id": "home",
+    "tier": 3,
+    "emoji": "🏠",
+    "name": "집 / 초대 / 집들이",
+    "rows": [
+      {
+        "plain": "[집]이 어디예요?",
+        "en": "Where is your house?",
+        "ja": "お宅はどこですか？",
+        "zh": "你家在哪里？",
+        "vi": "Nhà bạn ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "회사,학교,아파트"
+      },
+      {
+        "plain": "[슬리퍼] 좀 주세요.",
+        "en": "Could I have some slippers, please?",
+        "ja": "スリッパをください。",
+        "zh": "请给我一双拖鞋。",
+        "vi": "Cho tôi xin đôi dép đi trong nhà ạ.",
+        "pattern": "N 주세요",
+        "keys": "수건,물,휴지"
+      },
+      {
+        "plain": "[손님방] 있어요?",
+        "en": "Do you have a guest room?",
+        "ja": "客室はありますか？",
+        "zh": "有客房吗？",
+        "vi": "Nhà bạn có phòng cho khách không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "빈 방,베란다,소파"
+      },
+      {
+        "plain": "[욕실]이 어디예요?",
+        "en": "Where is the bathroom?",
+        "ja": "お風呂場はどこですか？",
+        "zh": "浴室在哪里？",
+        "vi": "Phòng tắm ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "화장실,주방,현관"
+      },
+      {
+        "plain": "[수저] 있어요?",
+        "en": "Do you have spoons and chopsticks?",
+        "ja": "スプーンと箸はありますか？",
+        "zh": "有勺子和筷子吗？",
+        "vi": "Có thìa và đũa không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "접시,컵,냅킨"
+      },
+      {
+        "plain": "[집]에 초대하고 싶어요.",
+        "en": "I'd like to invite you to my home.",
+        "ja": "家に招待したいです。",
+        "zh": "我想邀请你来我家。",
+        "vi": "Tôi muốn mời bạn đến nhà tôi ạ.",
+        "pattern": "N에 초대하고 싶어요",
+        "keys": "저녁 식사,파티,모임"
+      },
+      {
+        "plain": "[집들이]를 하고 싶어요.",
+        "en": "I'd like to have a housewarming party.",
+        "ja": "引っ越しパーティーをしたいです。",
+        "zh": "我想办乔迁宴。",
+        "vi": "Tôi muốn tổ chức tiệc tân gia ạ.",
+        "pattern": "N을/를 하고 싶어요",
+        "keys": "파티,모임,식사"
+      },
+      {
+        "plain": "[의자]를 [소파]로 바꿔 주세요.",
+        "en": "Please change the chair to a sofa.",
+        "ja": "椅子をソファーに変えてください。",
+        "zh": "请把椅子换成沙发。",
+        "vi": "Làm ơn đổi ghế sang sofa ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "2:침대,의자,방석"
+      },
+      {
+        "plain": "[초대 시간]을 확인해 주세요.",
+        "en": "Please check the invitation time.",
+        "ja": "招待の時間を確認してください。",
+        "zh": "请确认一下邀请的时间。",
+        "vi": "Làm ơn kiểm tra giờ mời ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "주소,인원,음식"
+      },
+      {
+        "plain": "[인원]을 확인해 주세요.",
+        "en": "Please confirm the number of guests.",
+        "ja": "人数を確認してください。",
+        "zh": "请确认一下人数。",
+        "vi": "Làm ơn xác nhận số khách ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "시간,음식,주소"
+      },
+      {
+        "plain": "[음식]이 부족한지 확인해 주세요.",
+        "en": "Please check whether there's enough food.",
+        "ja": "料理が足りているか確認してください。",
+        "zh": "请确认一下食物够不够。",
+        "vi": "Làm ơn kiểm tra xem đồ ăn có đủ không ạ.",
+        "pattern": "N이/가 부족한지 확인해 주세요",
+        "keys": "음료수,그릇,의자"
+      },
+      {
+        "plain": "[현관문]을 확인해 주세요.",
+        "en": "Please check the front door.",
+        "ja": "玄関のドアを確認してください。",
+        "zh": "请检查一下大门。",
+        "vi": "Làm ơn kiểm tra cửa chính giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "창문,가스,불"
+      },
+      {
+        "plain": "[현관 비밀번호]가 안 돼요.",
+        "en": "The door code doesn't work.",
+        "ja": "玄関の暗証番号が使えません。",
+        "zh": "门锁密码不对。",
+        "vi": "Mật khẩu cửa không dùng được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "열쇠,카드키,초인종"
+      },
+      {
+        "plain": "[보일러]가 안 돼요.",
+        "en": "The heater isn't working.",
+        "ja": "ボイラーが動きません。",
+        "zh": "暖气不能用。",
+        "vi": "Lò sưởi không hoạt động ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "세탁기,냉장고,전기"
+      },
+      {
+        "plain": "[열쇠]를 잃어버렸어요.",
+        "en": "I lost the key.",
+        "ja": "鍵をなくしました。",
+        "zh": "我把钥匙弄丢了。",
+        "vi": "Tôi làm mất chìa khóa ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "카드키,주소,초대장"
+      },
+      {
+        "plain": "[리모컨]을 잃어버렸어요.",
+        "en": "I lost the remote control.",
+        "ja": "リモコンをなくしました。",
+        "zh": "我把遥控器弄丢了。",
+        "vi": "Tôi làm mất điều khiển ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "열쇠,양말,충전기"
+      },
+      {
+        "plain": "[집들이]에 늦었어요.",
+        "en": "I'm late for the housewarming.",
+        "ja": "引っ越しパーティーに遅れました。",
+        "zh": "我乔迁宴迟到了。",
+        "vi": "Tôi đã trễ tiệc tân gia ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "저녁 식사,모임,파티"
+      },
+      {
+        "plain": "[맛있는 음식]을 차려 주셔서 감사합니다.",
+        "en": "Thank you for preparing such delicious food.",
+        "ja": "おいしい料理を用意してくださってありがとうございます。",
+        "zh": "谢谢您准备了这么好吃的菜。",
+        "vi": "Cảm ơn bạn đã chuẩn bị món ăn ngon ạ.",
+        "pattern": "N을/를 V아/어 주셔서 감사합니다",
+        "keys": "선물,자리,음료수"
+      },
+      {
+        "plain": "[집]을 어질러서 죄송합니다.",
+        "en": "I'm sorry I made a mess of the house.",
+        "ja": "家を散らかしてすみません。",
+        "zh": "不好意思，我把家里弄乱了。",
+        "vi": "Xin lỗi vì tôi đã làm bừa bộn nhà ạ.",
+        "pattern": "N을/를 V아/어서 죄송합니다",
+        "keys": "방,주방,거실"
+      },
+      {
+        "plain": "[덕분에] 즐거운 집들이였어요.",
+        "en": "Thanks to you, it was a fun housewarming.",
+        "ja": "おかげさまで楽しいパーティーでした。",
+        "zh": "多亏您，乔迁宴很开心。",
+        "vi": "Nhờ bạn mà tiệc tân gia thật vui ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "work": {
+    "id": "work",
+    "tier": 3,
+    "emoji": "💼",
+    "name": "회사 / 공장 / 면접",
+    "rows": [
+      {
+        "plain": "[사무실]이 어디예요?",
+        "en": "Where is the office?",
+        "ja": "事務所はどこですか？",
+        "zh": "办公室在哪里？",
+        "vi": "Văn phòng ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "공장,회의실,식당"
+      },
+      {
+        "plain": "[서류] 좀 주세요.",
+        "en": "Could I have the documents, please?",
+        "ja": "書類をください。",
+        "zh": "请给我文件。",
+        "vi": "Cho tôi xin giấy tờ ạ.",
+        "pattern": "N 주세요",
+        "keys": "펜,계약서,명함"
+      },
+      {
+        "plain": "[안전모] 있어요?",
+        "en": "Do you have a safety helmet?",
+        "ja": "ヘルメットはありますか？",
+        "zh": "有安全帽吗？",
+        "vi": "Có mũ bảo hộ không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "장갑,안전화,마스크"
+      },
+      {
+        "plain": "[면접 장소]가 어디예요?",
+        "en": "Where is the interview room?",
+        "ja": "面接会場はどこですか？",
+        "zh": "面试地点在哪里？",
+        "vi": "Địa điểm phỏng vấn ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "사무실,회의실,사무동"
+      },
+      {
+        "plain": "[회의실] 있어요?",
+        "en": "Is there a meeting room?",
+        "ja": "会議室はありますか？",
+        "zh": "有会议室吗？",
+        "vi": "Có phòng họp không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "휴게실,식당,주차장"
+      },
+      {
+        "plain": "[일]하고 싶어요.",
+        "en": "I want to work.",
+        "ja": "働きたいです。",
+        "zh": "我想工作。",
+        "vi": "Tôi muốn làm việc ạ.",
+        "pattern": "N하고 싶어요",
+        "keys": "일,근무,연습"
+      },
+      {
+        "plain": "[면접]을 보고 싶어요.",
+        "en": "I'd like to have an interview.",
+        "ja": "面接を受けたいです。",
+        "zh": "我想参加面试。",
+        "vi": "Tôi muốn được phỏng vấn ạ.",
+        "pattern": "N을/를 보고 싶어요",
+        "keys": "시험,상담,견학"
+      },
+      {
+        "plain": "[근무 시간]을 [오후]로 바꿔 주세요.",
+        "en": "Please change my work hours to the afternoon.",
+        "ja": "勤務時間を午後に変えてください。",
+        "zh": "请把工作时间改到下午。",
+        "vi": "Làm ơn đổi giờ làm sang buổi chiều ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "근무 일정,휴일,교대"
+      },
+      {
+        "plain": "[근무 일정]을 확인해 주세요.",
+        "en": "Please check my work schedule.",
+        "ja": "勤務スケジュールを確認してください。",
+        "zh": "请确认一下我的工作安排。",
+        "vi": "Làm ơn kiểm tra lịch làm việc của tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "근무 시간,휴일,교대"
+      },
+      {
+        "plain": "[서류]를 확인해 주세요.",
+        "en": "Please check the documents.",
+        "ja": "書類を確認してください。",
+        "zh": "请确认一下文件。",
+        "vi": "Làm ơn kiểm tra giấy tờ giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "계약서,신분증,이력서"
+      },
+      {
+        "plain": "[월급]을 확인해 주세요.",
+        "en": "Please check my salary.",
+        "ja": "給料を確認してください。",
+        "zh": "请确认一下我的工资。",
+        "vi": "Làm ơn kiểm tra lương của tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "근무 시간,휴일,계약서"
+      },
+      {
+        "plain": "[계약서]를 확인해 주세요.",
+        "en": "Please check the contract.",
+        "ja": "契約書を確認してください。",
+        "zh": "请确认一下合同。",
+        "vi": "Làm ơn kiểm tra hợp đồng giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "서류,월급,근무 일정"
+      },
+      {
+        "plain": "[기계]가 안 돼요.",
+        "en": "The machine isn't working.",
+        "ja": "機械が動きません。",
+        "zh": "机器不能用。",
+        "vi": "Máy không hoạt động ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "컴퓨터,프린터,엘리베이터"
+      },
+      {
+        "plain": "[컴퓨터]가 안 돼요.",
+        "en": "The computer isn't working.",
+        "ja": "パソコンが動きません。",
+        "zh": "电脑用不了。",
+        "vi": "Máy tính không hoạt động ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "프린터,기계,인터넷"
+      },
+      {
+        "plain": "[출입증]을 잃어버렸어요.",
+        "en": "I lost my access pass.",
+        "ja": "入館証をなくしました。",
+        "zh": "我把出入证弄丢了。",
+        "vi": "Tôi làm mất thẻ ra vào ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "안전모,서류,명함"
+      },
+      {
+        "plain": "[서류]를 잃어버렸어요.",
+        "en": "I lost the documents.",
+        "ja": "書類をなくしました。",
+        "zh": "我把文件弄丢了。",
+        "vi": "Tôi làm mất giấy tờ ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "계약서,이력서,출입증"
+      },
+      {
+        "plain": "[출근 시간]에 늦었어요.",
+        "en": "I'm late for work.",
+        "ja": "出勤時間に遅れました。",
+        "zh": "我上班迟到了。",
+        "vi": "Tôi đã trễ giờ đi làm ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "면접,회의,교육"
+      },
+      {
+        "plain": "[기회]를 주셔서 감사합니다.",
+        "en": "Thank you for giving me this opportunity.",
+        "ja": "機会をくださってありがとうございます。",
+        "zh": "谢谢您给我这个机会。",
+        "vi": "Cảm ơn bạn đã cho tôi cơ hội này ạ.",
+        "pattern": "N을/를 주셔서 감사합니다",
+        "keys": "시간,도움,일"
+      },
+      {
+        "plain": "[실수]해서 죄송합니다.",
+        "en": "I'm sorry I made a mistake.",
+        "ja": "ミスをしてすみません。",
+        "zh": "不好意思，我出错了。",
+        "vi": "Xin lỗi vì tôi đã mắc lỗi ạ.",
+        "pattern": "N해서 죄송합니다",
+        "keys": "지각,실례,오해"
+      },
+      {
+        "plain": "[덕분에] 일을 배웠어요.",
+        "en": "Thanks to you, I learned the work.",
+        "ja": "おかげさまで仕事を覚えました。",
+        "zh": "多亏您，我学会了工作。",
+        "vi": "Nhờ bạn mà tôi đã học được công việc ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "hobby": {
+    "id": "hobby",
+    "tier": 3,
+    "emoji": "🎉",
+    "name": "취미 / 주말 / 약속 잡기",
+    "rows": [
+      {
+        "plain": "[영화관]이 어디예요?",
+        "en": "Where is the movie theater?",
+        "ja": "映画館はどこですか？",
+        "zh": "电影院在哪里？",
+        "vi": "Rạp chiếu phim ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "공원,식당,카페"
+      },
+      {
+        "plain": "[표] 두 장 주세요.",
+        "en": "Two tickets, please.",
+        "ja": "チケットを2枚ください。",
+        "zh": "请给我两张票。",
+        "vi": "Cho tôi hai vé ạ.",
+        "pattern": "N 주세요",
+        "keys": "한 장,세 장,영수증"
+      },
+      {
+        "plain": "[취미] 있어요?",
+        "en": "Do you have a hobby?",
+        "ja": "趣味はありますか？",
+        "zh": "你有爱好吗？",
+        "vi": "Bạn có sở thích không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "계획,약속,시간"
+      },
+      {
+        "plain": "[공원]이 어디예요?",
+        "en": "Where is the park?",
+        "ja": "公園はどこですか？",
+        "zh": "公园在哪里？",
+        "vi": "Công viên ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "영화관,시장,산"
+      },
+      {
+        "plain": "[주말] 시간 있어요?",
+        "en": "Do you have time this weekend?",
+        "ja": "週末は時間がありますか？",
+        "zh": "周末你有时间吗？",
+        "vi": "Cuối tuần bạn có rảnh không ạ?",
+        "pattern": "N 시간 있어요?",
+        "keys": "오늘,내일,저녁"
+      },
+      {
+        "plain": "[운동]하고 싶어요.",
+        "en": "I'd like to exercise.",
+        "ja": "運動したいです。",
+        "zh": "我想运动。",
+        "vi": "Tôi muốn tập thể dục ạ.",
+        "pattern": "N하고 싶어요",
+        "keys": "산책,여행,수영"
+      },
+      {
+        "plain": "[여행]하고 싶어요.",
+        "en": "I'd like to travel.",
+        "ja": "旅行したいです。",
+        "zh": "我想去旅行。",
+        "vi": "Tôi muốn đi du lịch ạ.",
+        "pattern": "N하고 싶어요",
+        "keys": "운동,산책,쇼핑"
+      },
+      {
+        "plain": "[모임]을 [일요일]로 바꿔 주세요.",
+        "en": "Please change the gathering to Sunday.",
+        "ja": "集まりを日曜日に変えてください。",
+        "zh": "请把聚会改到星期日。",
+        "vi": "Làm ơn đổi buổi họp mặt sang Chủ nhật ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "약속,예약,일정"
+      },
+      {
+        "plain": "[주말 일정]을 확인해 주세요.",
+        "en": "Please check the weekend schedule.",
+        "ja": "週末の予定を確認してください。",
+        "zh": "请确认一下周末的安排。",
+        "vi": "Làm ơn kiểm tra lịch cuối tuần giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "모임 시간,영화 시간,날씨"
+      },
+      {
+        "plain": "[영화 시간]을 확인해 주세요.",
+        "en": "Please check the movie time.",
+        "ja": "映画の時間を確認してください。",
+        "zh": "请确认一下电影的时间。",
+        "vi": "Làm ơn kiểm tra giờ chiếu phim giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "주말 일정,모임 시간,표"
+      },
+      {
+        "plain": "[티켓]을 확인해 주세요.",
+        "en": "Please check the ticket.",
+        "ja": "チケットを確認してください。",
+        "zh": "请确认一下票。",
+        "vi": "Làm ơn kiểm tra vé giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "예약,시간,좌석"
+      },
+      {
+        "plain": "[모임 시간]을 확인해 주세요.",
+        "en": "Please confirm the gathering time.",
+        "ja": "集まりの時間を確認してください。",
+        "zh": "请确认一下聚会时间。",
+        "vi": "Làm ơn xác nhận giờ họp mặt ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "영화 시간,장소,날짜"
+      },
+      {
+        "plain": "[표]가 안 남았어요.",
+        "en": "There are no tickets left.",
+        "ja": "チケットが残っていません。",
+        "zh": "票已经卖完了。",
+        "vi": "Hết vé rồi ạ.",
+        "pattern": "N이/가 안 남았어요",
+        "keys": "자리,좌석,시간"
+      },
+      {
+        "plain": "[시간]이 안 맞아요.",
+        "en": "The times don't match.",
+        "ja": "時間が合いません。",
+        "zh": "时间对不上。",
+        "vi": "Thời gian không khớp ạ.",
+        "pattern": "N이/가 안 맞아요",
+        "keys": "일정,날짜,장소"
+      },
+      {
+        "plain": "[표]를 잃어버렸어요.",
+        "en": "I lost my ticket.",
+        "ja": "チケットをなくしました。",
+        "zh": "我把票弄丢了。",
+        "vi": "Tôi làm mất vé ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "티켓,지갑,우산"
+      },
+      {
+        "plain": "[운동화]를 잃어버렸어요.",
+        "en": "I lost my sneakers.",
+        "ja": "運動靴をなくしました。",
+        "zh": "我把运动鞋弄丢了。",
+        "vi": "Tôi làm mất đôi giày thể thao ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "모자,수건,물병"
+      },
+      {
+        "plain": "[영화]에 늦었어요.",
+        "en": "I'm late for the movie.",
+        "ja": "映画に遅れました。",
+        "zh": "我看电影迟到了。",
+        "vi": "Tôi đã trễ giờ chiếu phim ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "공연,약속,모임"
+      },
+      {
+        "plain": "[같이] 놀아 주셔서 감사합니다.",
+        "en": "Thank you for hanging out with me.",
+        "ja": "一緒に遊んでくださってありがとうございます。",
+        "zh": "谢谢您陪我玩。",
+        "vi": "Cảm ơn bạn đã đi chơi cùng tôi ạ.",
+        "pattern": "N V아/어 주셔서 감사합니다",
+        "keys": "함께,자주,오래"
+      },
+      {
+        "plain": "[약속]을 미뤄서 죄송합니다.",
+        "en": "I'm sorry I postponed our plans.",
+        "ja": "約束を延期してすみません。",
+        "zh": "不好意思，我把约定推迟了。",
+        "vi": "Xin lỗi vì tôi đã hoãn cuộc hẹn ạ.",
+        "pattern": "N을/를 V아/어서 죄송합니다",
+        "keys": "모임,일정,예약"
+      },
+      {
+        "plain": "[덕분에] 즐거운 주말이었어요.",
+        "en": "Thanks to you, it was a fun weekend.",
+        "ja": "おかげさまで楽しい週末でした。",
+        "zh": "多亏您，这个周末很开心。",
+        "vi": "Nhờ bạn mà cuối tuần thật vui ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "feel": {
+    "id": "feel",
+    "tier": 4,
+    "emoji": "😡",
+    "name": "감정 / 칭찬 / 위로",
+    "rows": [
+      {
+        "plain": "[기분]이 어때요?",
+        "en": "How are you feeling?",
+        "ja": "気分はどうですか？",
+        "zh": "你心情怎么样？",
+        "vi": "Tâm trạng bạn thế nào ạ?",
+        "pattern": "N이/가 어때요?",
+        "keys": "몸,날씨,일"
+      },
+      {
+        "plain": "[힘] 좀 주세요.",
+        "en": "Please cheer me up.",
+        "ja": "元気をください。",
+        "zh": "请给我一点力量。",
+        "vi": "Hãy tiếp thêm sức mạnh cho tôi nhé.",
+        "pattern": "N 주세요",
+        "keys": "용기,위로,시간"
+      },
+      {
+        "plain": "[고민] 있어요?",
+        "en": "Do you have a worry?",
+        "ja": "悩みはありますか？",
+        "zh": "你有烦恼吗？",
+        "vi": "Bạn có điều gì lo lắng không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "걱정,문제,질문"
+      },
+      {
+        "plain": "[무슨 일]이 있어요?",
+        "en": "Is something the matter?",
+        "ja": "何かありましたか？",
+        "zh": "发生什么事了吗？",
+        "vi": "Có chuyện gì vậy ạ?",
+        "pattern": "N이/가 있어요?",
+        "keys": "문제,사고,약속"
+      },
+      {
+        "plain": "[이야기할 시간] 있어요?",
+        "en": "Do you have time to talk?",
+        "ja": "話す時間はありますか？",
+        "zh": "你有时间聊聊吗？",
+        "vi": "Bạn có thời gian nói chuyện không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "시간,여유,약속"
+      },
+      {
+        "plain": "[좀 쉬고] 싶어요.",
+        "en": "I'd like to rest a bit.",
+        "ja": "少し休みたいです。",
+        "zh": "我想休息一会儿。",
+        "vi": "Tôi muốn nghỉ ngơi một chút ạ.",
+        "pattern": "V고 싶어요",
+        "keys": "혼자 있고,자고,걷고"
+      },
+      {
+        "plain": "[혼자] 있고 싶어요.",
+        "en": "I'd like to be alone.",
+        "ja": "一人でいたいです。",
+        "zh": "我想一个人待着。",
+        "vi": "Tôi muốn ở một mình ạ.",
+        "pattern": "N V고 싶어요",
+        "keys": "조용히,편하게,같이"
+      },
+      {
+        "plain": "[말투]를 [부드럽게] 바꿔 주세요.",
+        "en": "Please soften your tone.",
+        "ja": "言い方を柔らかく変えてください。",
+        "zh": "请把语气放柔和一点。",
+        "vi": "Làm ơn nói nhẹ nhàng hơn một chút ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "표정,태도,목소리"
+      },
+      {
+        "plain": "[제 말]을 이해했는지 확인해 주세요.",
+        "en": "Please check that you understood what I said.",
+        "ja": "私の言葉を理解したか確認してください。",
+        "zh": "请确认一下您是否理解了我的话。",
+        "vi": "Làm ơn kiểm tra xem bạn có hiểu lời tôi nói không ạ.",
+        "pattern": "N을/를 V았/었는지 확인해 주세요",
+        "keys": "마음,뜻,설명"
+      },
+      {
+        "plain": "[걱정]이 있는지 확인해 주세요.",
+        "en": "Please check whether something is worrying you.",
+        "ja": "心配事があるか確認してください。",
+        "zh": "请确认一下有没有什么担心的事。",
+        "vi": "Làm ơn kiểm tra xem có điều gì lo lắng không ạ.",
+        "pattern": "N이/가 있는지 확인해 주세요",
+        "keys": "문제,고민,불편"
+      },
+      {
+        "plain": "[몸 상태]를 확인해 주세요.",
+        "en": "Please check how you're feeling physically.",
+        "ja": "体調を確認してください。",
+        "zh": "请确认一下身体状况。",
+        "vi": "Làm ơn kiểm tra tình trạng sức khỏe ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "기분,체온,혈압"
+      },
+      {
+        "plain": "[약속]을 확인해 주세요.",
+        "en": "Please confirm our plan.",
+        "ja": "約束を確認してください。",
+        "zh": "请确认一下约定。",
+        "vi": "Làm ơn xác nhận cuộc hẹn ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "시간,장소,날짜"
+      },
+      {
+        "plain": "[화]가 안 풀려요.",
+        "en": "My anger won't go away.",
+        "ja": "怒りが収まりません。",
+        "zh": "气消不了。",
+        "vi": "Tôi vẫn chưa nguôi giận ạ.",
+        "pattern": "N이/가 안 풀려요",
+        "keys": "스트레스,피로,걱정"
+      },
+      {
+        "plain": "[마음]이 안 편해요.",
+        "en": "I feel uneasy.",
+        "ja": "心が落ち着きません。",
+        "zh": "我心里不安。",
+        "vi": "Lòng tôi không yên ạ.",
+        "pattern": "N이/가 안 편해요",
+        "keys": "몸,기분,자리"
+      },
+      {
+        "plain": "[자신감]을 잃어버렸어요.",
+        "en": "I've lost my confidence.",
+        "ja": "自信をなくしました。",
+        "zh": "我失去了自信。",
+        "vi": "Tôi đã mất tự tin ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "용기,희망,의욕"
+      },
+      {
+        "plain": "[용기]를 잃어버렸어요.",
+        "en": "I've lost my courage.",
+        "ja": "勇気をなくしました。",
+        "zh": "我失去了勇气。",
+        "vi": "Tôi đã mất dũng khí ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "자신감,희망,기운"
+      },
+      {
+        "plain": "[답장]이 늦었어요.",
+        "en": "My reply was late.",
+        "ja": "返事が遅れました。",
+        "zh": "我回复晚了。",
+        "vi": "Tôi đã trả lời trễ ạ.",
+        "pattern": "N이/가 늦었어요",
+        "keys": "연락,전화,메시지"
+      },
+      {
+        "plain": "[칭찬]해 주셔서 감사합니다.",
+        "en": "Thank you for the compliment.",
+        "ja": "褒めてくださってありがとうございます。",
+        "zh": "谢谢您的夸奖。",
+        "vi": "Cảm ơn bạn đã khen tôi ạ.",
+        "pattern": "N해 주셔서 감사합니다",
+        "keys": "위로,응원,격려"
+      },
+      {
+        "plain": "[화]를 내서 죄송합니다.",
+        "en": "I'm sorry I lost my temper.",
+        "ja": "怒ってしまってすみません。",
+        "zh": "不好意思，我发火了。",
+        "vi": "Xin lỗi vì tôi đã nổi nóng ạ.",
+        "pattern": "N을/를 V아/어서 죄송합니다",
+        "keys": "짜증,실수,큰소리"
+      },
+      {
+        "plain": "[덕분에] 힘이 났어요.",
+        "en": "Thanks to you, I felt encouraged.",
+        "ja": "おかげさまで元気が出ました。",
+        "zh": "多亏您，我又有力气了。",
+        "vi": "Nhờ bạn mà tôi có thêm sức mạnh ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "drink": {
+    "id": "drink",
+    "tier": 4,
+    "emoji": "🍻",
+    "name": "술자리 / 식사 초대 거절·수락",
+    "rows": [
+      {
+        "plain": "[술집]이 어디예요?",
+        "en": "Where is the bar?",
+        "ja": "居酒屋はどこですか？",
+        "zh": "酒馆在哪里？",
+        "vi": "Quán nhậu ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "식당,편의점,노래방"
+      },
+      {
+        "plain": "[술잔] 좀 주세요.",
+        "en": "Could I have a glass, please?",
+        "ja": "グラスをください。",
+        "zh": "请给我一个酒杯。",
+        "vi": "Cho tôi xin cái ly ạ.",
+        "pattern": "N 주세요",
+        "keys": "물,안주,젓가락"
+      },
+      {
+        "plain": "[안주] 있어요?",
+        "en": "Do you have snacks to go with drinks?",
+        "ja": "おつまみはありますか？",
+        "zh": "有下酒菜吗？",
+        "vi": "Có đồ nhắm không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "소주,맥주,물"
+      },
+      {
+        "plain": "[회식 장소]가 어디예요?",
+        "en": "Where is the company dinner?",
+        "ja": "会食の場所はどこですか？",
+        "zh": "聚餐地点在哪里？",
+        "vi": "Địa điểm liên hoan ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "술집,식당,역"
+      },
+      {
+        "plain": "[소주] 있어요?",
+        "en": "Do you have soju?",
+        "ja": "焼酎はありますか？",
+        "zh": "有烧酒吗？",
+        "vi": "Có rượu soju không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "맥주,막걸리,물"
+      },
+      {
+        "plain": "[한잔]하고 싶어요.",
+        "en": "I'd like to have a drink.",
+        "ja": "一杯飲みたいです。",
+        "zh": "我想喝一杯。",
+        "vi": "Tôi muốn uống một ly ạ.",
+        "pattern": "N하고 싶어요",
+        "keys": "식사,커피,산책"
+      },
+      {
+        "plain": "[식사]에 초대하고 싶어요.",
+        "en": "I'd like to invite you to a meal.",
+        "ja": "食事に招待したいです。",
+        "zh": "我想邀请你吃饭。",
+        "vi": "Tôi muốn mời bạn dùng bữa ạ.",
+        "pattern": "N에 초대하고 싶어요",
+        "keys": "저녁,점심,파티"
+      },
+      {
+        "plain": "[술]을 [물]로 바꿔 주세요.",
+        "en": "Please change the alcohol to water.",
+        "ja": "お酒を水に変えてください。",
+        "zh": "请把酒换成水。",
+        "vi": "Làm ơn đổi rượu sang nước ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "2:주스,차,우유"
+      },
+      {
+        "plain": "[회식 시간]을 확인해 주세요.",
+        "en": "Please confirm the dinner time.",
+        "ja": "会食の時間を確認してください。",
+        "zh": "请确认一下聚餐时间。",
+        "vi": "Làm ơn xác nhận giờ liên hoan ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "장소,인원,날짜"
+      },
+      {
+        "plain": "[메뉴]를 확인해 주세요.",
+        "en": "Please check the menu.",
+        "ja": "メニューを確認してください。",
+        "zh": "请确认一下菜单。",
+        "vi": "Làm ơn kiểm tra thực đơn giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "가격,인원,예약"
+      },
+      {
+        "plain": "[계산]을 확인해 주세요.",
+        "en": "Please check the bill.",
+        "ja": "会計を確認してください。",
+        "zh": "请确认一下结账。",
+        "vi": "Làm ơn kiểm tra thanh toán giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "금액,영수증,주문"
+      },
+      {
+        "plain": "[대리운전]을 불러 주세요.",
+        "en": "Please call a designated driver.",
+        "ja": "運転代行を呼んでください。",
+        "zh": "请帮我叫代驾。",
+        "vi": "Làm ơn gọi giúp tôi tài xế lái hộ ạ.",
+        "pattern": "N을/를 불러 주세요",
+        "keys": "택시,직원,친구"
+      },
+      {
+        "plain": "[술]을 못 마셔요.",
+        "en": "I can't drink alcohol.",
+        "ja": "お酒が飲めません。",
+        "zh": "我不能喝酒。",
+        "vi": "Tôi không uống được rượu ạ.",
+        "pattern": "N을/를 못 V아/어요",
+        "keys": "소주,맥주,커피"
+      },
+      {
+        "plain": "[오늘]은 안 돼요.",
+        "en": "Today isn't possible.",
+        "ja": "今日は難しいです。",
+        "zh": "今天不行。",
+        "vi": "Hôm nay thì không được ạ.",
+        "pattern": "N은/는 안 돼요",
+        "keys": "내일,주말,저녁"
+      },
+      {
+        "plain": "[안경]을 잃어버렸어요.",
+        "en": "I lost my glasses.",
+        "ja": "眼鏡をなくしました。",
+        "zh": "我把眼镜弄丢了。",
+        "vi": "Tôi làm mất kính ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "지갑,모자,열쇠"
+      },
+      {
+        "plain": "[외투]를 잃어버렸어요.",
+        "en": "I lost my coat.",
+        "ja": "コートをなくしました。",
+        "zh": "我把外套弄丢了。",
+        "vi": "Tôi làm mất áo khoác ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "우산,가방,장갑"
+      },
+      {
+        "plain": "[회식]에 늦었어요.",
+        "en": "I'm late for the company dinner.",
+        "ja": "会食に遅れました。",
+        "zh": "我聚餐迟到了。",
+        "vi": "Tôi đã trễ buổi liên hoan ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "약속,식사,모임"
+      },
+      {
+        "plain": "[맛있는 술]을 사 주셔서 감사합니다.",
+        "en": "Thank you for buying me good drinks.",
+        "ja": "おいしいお酒をおごってくださってありがとうございます。",
+        "zh": "谢谢您请我喝好酒。",
+        "vi": "Cảm ơn bạn đã mời tôi rượu ngon ạ.",
+        "pattern": "N을/를 사 주셔서 감사합니다",
+        "keys": "식사,커피,안주"
+      },
+      {
+        "plain": "[오늘]은 못 가서 죄송합니다.",
+        "en": "I'm sorry I can't go today.",
+        "ja": "今日は行けなくてすみません。",
+        "zh": "不好意思，我今天去不了。",
+        "vi": "Xin lỗi vì hôm nay tôi không đi được ạ.",
+        "pattern": "N은/는 못 가서 죄송합니다",
+        "keys": "내일,이번 주,다음에"
+      },
+      {
+        "plain": "[덕분에] 즐거웠어요.",
+        "en": "Thanks to you, I had a great time.",
+        "ja": "おかげさまで楽しかったです。",
+        "zh": "多亏您，我玩得很开心。",
+        "vi": "Nhờ bạn mà tôi đã rất vui ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "love": {
+    "id": "love",
+    "tier": 4,
+    "emoji": "❤️",
+    "name": "연애 / 데이트",
+    "rows": [
+      {
+        "plain": "[데이트 장소]가 어디예요?",
+        "en": "Where is the date spot?",
+        "ja": "デートの場所はどこですか？",
+        "zh": "约会地点在哪里？",
+        "vi": "Địa điểm hẹn hò ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "카페,공원,영화관"
+      },
+      {
+        "plain": "[꽃] 한 송이 주세요.",
+        "en": "One flower, please.",
+        "ja": "花を1本ください。",
+        "zh": "请给我一支花。",
+        "vi": "Cho tôi một bông hoa ạ.",
+        "pattern": "N 주세요",
+        "keys": "꽃다발,초콜릿,편지"
+      },
+      {
+        "plain": "[애인] 있어요?",
+        "en": "Do you have a partner?",
+        "ja": "恋人はいますか？",
+        "zh": "你有对象吗？",
+        "vi": "Bạn có người yêu chưa ạ?",
+        "pattern": "N 있어요?",
+        "keys": "반려동물,형제,취미"
+      },
+      {
+        "plain": "[카페]가 어디예요?",
+        "en": "Where is the café?",
+        "ja": "カフェはどこですか？",
+        "zh": "咖啡馆在哪里？",
+        "vi": "Quán cà phê ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "공원,식당,영화관"
+      },
+      {
+        "plain": "[이번 주말] 시간 있어요?",
+        "en": "Are you free this weekend?",
+        "ja": "今週末は時間がありますか？",
+        "zh": "这个周末你有空吗？",
+        "vi": "Cuối tuần này bạn có rảnh không ạ?",
+        "pattern": "N 시간 있어요?",
+        "keys": "오늘,내일,저녁"
+      },
+      {
+        "plain": "[데이트]하고 싶어요.",
+        "en": "I'd like to go on a date with you.",
+        "ja": "デートしたいです。",
+        "zh": "我想和你约会。",
+        "vi": "Tôi muốn hẹn hò với bạn ạ.",
+        "pattern": "N하고 싶어요",
+        "keys": "산책,식사,여행"
+      },
+      {
+        "plain": "[사귀고] 싶어요.",
+        "en": "I'd like to go out with you.",
+        "ja": "付き合いたいです。",
+        "zh": "我想和你交往。",
+        "vi": "Tôi muốn hẹn hò nghiêm túc với bạn ạ.",
+        "pattern": "V고 싶어요",
+        "keys": "만나고,같이 있고,여행하고"
+      },
+      {
+        "plain": "[호칭]을 [자기]로 바꿔 주세요.",
+        "en": "Please call me 'darling' from now on.",
+        "ja": "呼び方を「ダーリン」に変えてください。",
+        "zh": "请把称呼改成“亲爱的”。",
+        "vi": "Làm ơn đổi cách gọi thành 'anh yêu/em yêu' nhé.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "이름,별명,말투"
+      },
+      {
+        "plain": "[마음]을 확인하고 싶어요.",
+        "en": "I want to know how you feel.",
+        "ja": "気持ちを確かめたいです。",
+        "zh": "我想确认一下你的心意。",
+        "vi": "Tôi muốn biết tình cảm của bạn ạ.",
+        "pattern": "N을/를 확인하고 싶어요",
+        "keys": "생각,기분,약속"
+      },
+      {
+        "plain": "[약속 시간]을 확인해 주세요.",
+        "en": "Please confirm our meeting time.",
+        "ja": "約束の時間を確認してください。",
+        "zh": "请确认一下约会时间。",
+        "vi": "Làm ơn xác nhận giờ hẹn ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "장소,날짜,예약"
+      },
+      {
+        "plain": "[답장]을 확인해 주세요.",
+        "en": "Please check my reply.",
+        "ja": "返信を確認してください。",
+        "zh": "请看一下我的回复。",
+        "vi": "Làm ơn xem tin nhắn trả lời của tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "메시지,전화,사진"
+      },
+      {
+        "plain": "[예약]을 확인해 주세요.",
+        "en": "Please check the reservation.",
+        "ja": "予約を確認してください。",
+        "zh": "请确认一下预订。",
+        "vi": "Làm ơn kiểm tra đặt chỗ giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "시간,인원,장소"
+      },
+      {
+        "plain": "[연락]이 안 돼요.",
+        "en": "I can't reach you.",
+        "ja": "連絡がつきません。",
+        "zh": "联系不上你。",
+        "vi": "Tôi không liên lạc được với bạn ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "전화,문자,메시지"
+      },
+      {
+        "plain": "[용기]가 안 나요.",
+        "en": "I can't find the courage.",
+        "ja": "勇気が出ません。",
+        "zh": "我鼓不起勇气。",
+        "vi": "Tôi không đủ can đảm ạ.",
+        "pattern": "N이/가 안 나요",
+        "keys": "자신감,힘,기운"
+      },
+      {
+        "plain": "[반지]를 잃어버렸어요.",
+        "en": "I lost the ring.",
+        "ja": "指輪をなくしました。",
+        "zh": "我把戒指弄丢了。",
+        "vi": "Tôi làm mất chiếc nhẫn ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "목걸이,시계,편지"
+      },
+      {
+        "plain": "[선물]을 잃어버렸어요.",
+        "en": "I lost the gift.",
+        "ja": "プレゼントをなくしました。",
+        "zh": "我把礼物弄丢了。",
+        "vi": "Tôi làm mất món quà ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "꽃,반지,편지"
+      },
+      {
+        "plain": "[데이트]에 늦었어요.",
+        "en": "I'm late for our date.",
+        "ja": "デートに遅れました。",
+        "zh": "我约会迟到了。",
+        "vi": "Tôi đã trễ buổi hẹn hò ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "약속,영화,식사"
+      },
+      {
+        "plain": "[사랑]해 주셔서 감사합니다.",
+        "en": "Thank you for loving me.",
+        "ja": "愛してくれてありがとうございます。",
+        "zh": "谢谢你爱我。",
+        "vi": "Cảm ơn bạn đã yêu tôi ạ.",
+        "pattern": "N해 주셔서 감사합니다",
+        "keys": "이해,응원,배려"
+      },
+      {
+        "plain": "[약속]을 못 지켜서 죄송합니다.",
+        "en": "I'm sorry I couldn't keep my promise.",
+        "ja": "約束を守れなくてすみません。",
+        "zh": "不好意思，我没能遵守约定。",
+        "vi": "Xin lỗi vì tôi đã không giữ lời hứa ạ.",
+        "pattern": "N을/를 못 V아/어서 죄송합니다",
+        "keys": "시간,기념일,생일"
+      },
+      {
+        "plain": "[덕분에] 행복해요.",
+        "en": "Thanks to you, I'm happy.",
+        "ja": "おかげさまで幸せです。",
+        "zh": "多亏你，我很幸福。",
+        "vi": "Nhờ bạn mà tôi hạnh phúc ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "sns": {
+    "id": "sns",
+    "tier": 4,
+    "emoji": "📱",
+    "name": "SNS / 사진 찍기 / 연락처 교환",
+    "rows": [
+      {
+        "plain": "[사진 찍을 곳]이 어디예요?",
+        "en": "Where is a good spot to take photos?",
+        "ja": "写真を撮る場所はどこですか？",
+        "zh": "哪里适合拍照？",
+        "vi": "Chỗ nào chụp ảnh đẹp ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "포토존,전망대,공원"
+      },
+      {
+        "plain": "[연락처] 좀 주세요.",
+        "en": "Could I have your contact information?",
+        "ja": "連絡先を教えてください。",
+        "zh": "请给我您的联系方式。",
+        "vi": "Cho tôi xin thông tin liên lạc ạ.",
+        "pattern": "N 주세요",
+        "keys": "전화번호,이메일,명함"
+      },
+      {
+        "plain": "[인스타] 있어요?",
+        "en": "Do you have Instagram?",
+        "ja": "インスタはやっていますか？",
+        "zh": "你有Instagram吗？",
+        "vi": "Bạn có Instagram không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "카카오톡,페이스북,이메일"
+      },
+      {
+        "plain": "[충전기] 있어요?",
+        "en": "Do you have a charger?",
+        "ja": "充電器はありますか？",
+        "zh": "有充电器吗？",
+        "vi": "Bạn có cục sạc không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "보조배터리,케이블,와이파이"
+      },
+      {
+        "plain": "[카카오톡] 있어요?",
+        "en": "Do you have KakaoTalk?",
+        "ja": "カカオトークはありますか？",
+        "zh": "你有KakaoTalk吗？",
+        "vi": "Bạn có KakaoTalk không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "인스타,페이스북,이메일"
+      },
+      {
+        "plain": "[사진]을 찍고 싶어요.",
+        "en": "I'd like to take a photo.",
+        "ja": "写真を撮りたいです。",
+        "zh": "我想拍照。",
+        "vi": "Tôi muốn chụp ảnh ạ.",
+        "pattern": "N을/를 찍고 싶어요",
+        "keys": "영상,단체 사진,셀카"
+      },
+      {
+        "plain": "[연락처]를 교환하고 싶어요.",
+        "en": "I'd like to exchange contact information.",
+        "ja": "連絡先を交換したいです。",
+        "zh": "我想交换联系方式。",
+        "vi": "Tôi muốn trao đổi thông tin liên lạc ạ.",
+        "pattern": "N을/를 교환하고 싶어요",
+        "keys": "명함,전화번호,이메일"
+      },
+      {
+        "plain": "[언어]를 [영어]로 바꿔 주세요.",
+        "en": "Please change the language to English.",
+        "ja": "言語を英語に変えてください。",
+        "zh": "请把语言换成英语。",
+        "vi": "Làm ơn đổi ngôn ngữ sang tiếng Anh ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "2:한국어,중국어,일본어"
+      },
+      {
+        "plain": "[번호]를 확인해 주세요.",
+        "en": "Please check the number.",
+        "ja": "番号を確認してください。",
+        "zh": "请确认一下号码。",
+        "vi": "Làm ơn kiểm tra số giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "이름,계정,주소"
+      },
+      {
+        "plain": "[계정]을 확인해 주세요.",
+        "en": "Please check the account.",
+        "ja": "アカウントを確認してください。",
+        "zh": "请确认一下账号。",
+        "vi": "Làm ơn kiểm tra tài khoản giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "번호,이름,이메일"
+      },
+      {
+        "plain": "[사진]을 확인해 주세요.",
+        "en": "Please check the photo.",
+        "ja": "写真を確認してください。",
+        "zh": "请确认一下照片。",
+        "vi": "Làm ơn xem lại ảnh giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "영상,설명,날짜"
+      },
+      {
+        "plain": "[메시지]를 확인해 주세요.",
+        "en": "Please check the message.",
+        "ja": "メッセージを確認してください。",
+        "zh": "请查看一下消息。",
+        "vi": "Làm ơn xem tin nhắn giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "답장,이메일,알림"
+      },
+      {
+        "plain": "[인터넷]이 안 돼요.",
+        "en": "The internet isn't working.",
+        "ja": "インターネットがつながりません。",
+        "zh": "网络连不上。",
+        "vi": "Internet không kết nối được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "와이파이,전화,데이터"
+      },
+      {
+        "plain": "[카메라]가 안 돼요.",
+        "en": "The camera isn't working.",
+        "ja": "カメラが使えません。",
+        "zh": "相机用不了。",
+        "vi": "Máy ảnh không hoạt động ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "휴대폰,마이크,플래시"
+      },
+      {
+        "plain": "[비밀번호]를 잊어버렸어요.",
+        "en": "I forgot my password.",
+        "ja": "パスワードを忘れました。",
+        "zh": "我忘了密码。",
+        "vi": "Tôi quên mật khẩu rồi ạ.",
+        "pattern": "N을/를 잊어버렸어요",
+        "keys": "계정,번호,이름"
+      },
+      {
+        "plain": "[충전기]를 잃어버렸어요.",
+        "en": "I lost my charger.",
+        "ja": "充電器をなくしました。",
+        "zh": "我把充电器弄丢了。",
+        "vi": "Tôi làm mất cục sạc ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "케이블,휴대폰,카메라"
+      },
+      {
+        "plain": "[업로드]가 늦었어요.",
+        "en": "The upload was late.",
+        "ja": "アップロードが遅れました。",
+        "zh": "上传晚了。",
+        "vi": "Việc đăng tải đã bị chậm ạ.",
+        "pattern": "N이/가 늦었어요",
+        "keys": "답장,전송,연락"
+      },
+      {
+        "plain": "[사진]을 찍어 주셔서 감사합니다.",
+        "en": "Thank you for taking my photo.",
+        "ja": "写真を撮ってくださってありがとうございます。",
+        "zh": "谢谢您帮我拍照。",
+        "vi": "Cảm ơn bạn đã chụp ảnh cho tôi ạ.",
+        "pattern": "N을/를 V아/어 주셔서 감사합니다",
+        "keys": "영상,단체 사진,설명"
+      },
+      {
+        "plain": "[허락 없이] 올려서 죄송합니다.",
+        "en": "I'm sorry I posted it without permission.",
+        "ja": "許可なくアップしてすみません。",
+        "zh": "不好意思，我没经许可就发布了。",
+        "vi": "Xin lỗi vì tôi đã đăng mà không xin phép ạ.",
+        "pattern": "N V아/어서 죄송합니다",
+        "keys": "미리,몰래,실수로"
+      },
+      {
+        "plain": "[덕분에] 좋은 사진을 얻었어요.",
+        "en": "Thanks to you, I got a great photo.",
+        "ja": "おかげさまで良い写真が撮れました。",
+        "zh": "多亏您，我拍到了好照片。",
+        "vi": "Nhờ bạn mà tôi có được bức ảnh đẹp ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  },
+  "bye": {
+    "id": "bye",
+    "tier": 4,
+    "emoji": "✈️",
+    "name": "귀국 / 작별 인사 / 다음 약속",
+    "rows": [
+      {
+        "plain": "[공항 버스]가 어디예요?",
+        "en": "Where is the airport bus?",
+        "ja": "空港バスはどこですか？",
+        "zh": "机场大巴在哪里？",
+        "vi": "Xe buýt sân bay ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "출국장,탑승구,택시 승강장"
+      },
+      {
+        "plain": "[선물 상자] 좀 주세요.",
+        "en": "Could I have a gift box, please?",
+        "ja": "ギフトボックスをください。",
+        "zh": "请给我一个礼盒。",
+        "vi": "Cho tôi xin hộp quà ạ.",
+        "pattern": "N 주세요",
+        "keys": "봉투,포장지,쇼핑백"
+      },
+      {
+        "plain": "[환불 창구] 있어요?",
+        "en": "Is there a refund counter?",
+        "ja": "払い戻しカウンターはありますか？",
+        "zh": "有退税柜台吗？",
+        "vi": "Có quầy hoàn thuế không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "면세점,환전소,안내 데스크"
+      },
+      {
+        "plain": "[출국장]이 어디예요?",
+        "en": "Where is the departure hall?",
+        "ja": "出国ゲートはどこですか？",
+        "zh": "出境大厅在哪里？",
+        "vi": "Sảnh xuất cảnh ở đâu ạ?",
+        "pattern": "N이/가 어디예요?",
+        "keys": "탑승구,공항 버스,면세점"
+      },
+      {
+        "plain": "[면세점] 있어요?",
+        "en": "Is there a duty-free shop?",
+        "ja": "免税店はありますか？",
+        "zh": "有免税店吗？",
+        "vi": "Có cửa hàng miễn thuế không ạ?",
+        "pattern": "N 있어요?",
+        "keys": "환전소,카페,편의점"
+      },
+      {
+        "plain": "[다시] 오고 싶어요.",
+        "en": "I want to come back again.",
+        "ja": "また来たいです。",
+        "zh": "我想再来。",
+        "vi": "Tôi muốn quay lại lần nữa ạ.",
+        "pattern": "N V고 싶어요",
+        "keys": "꼭,내년에,가족과 함께"
+      },
+      {
+        "plain": "[다시] 만나고 싶어요.",
+        "en": "I'd like to see you again.",
+        "ja": "また会いたいです。",
+        "zh": "我想再见到你。",
+        "vi": "Tôi muốn gặp lại bạn ạ.",
+        "pattern": "N V고 싶어요",
+        "keys": "꼭,곧,내년에"
+      },
+      {
+        "plain": "[일정]을 [다음 달]로 바꿔 주세요.",
+        "en": "Please change the schedule to next month.",
+        "ja": "日程を来月に変えてください。",
+        "zh": "请把日程改到下个月。",
+        "vi": "Làm ơn đổi lịch sang tháng sau ạ.",
+        "pattern": "N을/를 N(으)로 바꿔 주세요",
+        "keys": "2:내일,다음 주,내년"
+      },
+      {
+        "plain": "[출발 시간]을 확인해 주세요.",
+        "en": "Please check the departure time.",
+        "ja": "出発時間を確認してください。",
+        "zh": "请确认一下出发时间。",
+        "vi": "Làm ơn kiểm tra giờ khởi hành giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "비행기 시간,탑승구,날짜"
+      },
+      {
+        "plain": "[짐 무게]를 확인해 주세요.",
+        "en": "Please check the weight of my luggage.",
+        "ja": "荷物の重さを確認してください。",
+        "zh": "请确认一下行李的重量。",
+        "vi": "Làm ơn kiểm tra cân nặng hành lý giúp tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "수하물,가방,요금"
+      },
+      {
+        "plain": "[여권]을 확인해 주세요.",
+        "en": "Please check my passport.",
+        "ja": "パスポートを確認してください。",
+        "zh": "请确认一下我的护照。",
+        "vi": "Làm ơn kiểm tra hộ chiếu của tôi ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "탑승권,비자,예약"
+      },
+      {
+        "plain": "[다음 약속]을 확인해 주세요.",
+        "en": "Please confirm our next plan.",
+        "ja": "次の約束を確認してください。",
+        "zh": "请确认一下下次的约定。",
+        "vi": "Làm ơn xác nhận cuộc hẹn tiếp theo ạ.",
+        "pattern": "N을/를 확인해 주세요",
+        "keys": "날짜,장소,연락처"
+      },
+      {
+        "plain": "[공항 버스]가 안 와요.",
+        "en": "The airport bus isn't coming.",
+        "ja": "空港バスが来ません。",
+        "zh": "机场大巴没来。",
+        "vi": "Xe buýt sân bay chưa đến ạ.",
+        "pattern": "N이/가 안 와요",
+        "keys": "택시,기차,친구"
+      },
+      {
+        "plain": "[온라인 체크인]이 안 돼요.",
+        "en": "Online check-in isn't working.",
+        "ja": "オンラインチェックインができません。",
+        "zh": "无法在线办理值机。",
+        "vi": "Làm thủ tục trực tuyến không được ạ.",
+        "pattern": "N이/가 안 돼요",
+        "keys": "예약,결제,좌석 선택"
+      },
+      {
+        "plain": "[기념품]을 잃어버렸어요.",
+        "en": "I lost my souvenir.",
+        "ja": "お土産をなくしました。",
+        "zh": "我把纪念品弄丢了。",
+        "vi": "Tôi làm mất món quà lưu niệm ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "선물,사진,열쇠고리"
+      },
+      {
+        "plain": "[탑승권]을 잃어버렸어요.",
+        "en": "I lost my boarding pass.",
+        "ja": "搭乗券をなくしました。",
+        "zh": "我把登机牌弄丢了。",
+        "vi": "Tôi làm mất thẻ lên máy bay ạ.",
+        "pattern": "N을/를 잃어버렸어요",
+        "keys": "여권,표,짐"
+      },
+      {
+        "plain": "[공항]에 늦었어요.",
+        "en": "I'm late for the airport.",
+        "ja": "空港に遅れました。",
+        "zh": "我去机场迟到了。",
+        "vi": "Tôi đã trễ giờ ra sân bay ạ.",
+        "pattern": "N에 늦었어요",
+        "keys": "비행기,체크인,약속"
+      },
+      {
+        "plain": "[잘] 대해 주셔서 감사합니다.",
+        "en": "Thank you for treating me so well.",
+        "ja": "親切にしてくださってありがとうございます。",
+        "zh": "谢谢您对我这么好。",
+        "vi": "Cảm ơn bạn đã đối xử tốt với tôi ạ.",
+        "pattern": "N V아/어 주셔서 감사합니다",
+        "keys": "따뜻하게,친절하게,많이"
+      },
+      {
+        "plain": "[먼저] 가서 죄송합니다.",
+        "en": "I'm sorry I'm leaving first.",
+        "ja": "先に行ってすみません。",
+        "zh": "不好意思，我先走了。",
+        "vi": "Xin lỗi vì tôi đi trước ạ.",
+        "pattern": "N V아/어서 죄송합니다",
+        "keys": "일찍,갑자기,혼자"
+      },
+      {
+        "plain": "[덕분에] 좋은 추억을 만들었어요.",
+        "en": "Thanks to you, I made wonderful memories.",
+        "ja": "おかげさまで良い思い出ができました。",
+        "zh": "多亏您，我留下了美好的回忆。",
+        "vi": "Nhờ bạn mà tôi có những kỷ niệm đẹp ạ.",
+        "pattern": "덕분에 + 문장",
+        "keys": ""
+      }
+    ]
+  }
+}
